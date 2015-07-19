@@ -18,9 +18,9 @@ $alt-font: $base-font;
    Colors
    ========================================================================== */
 
-$bodycolor      : #002a35;
+$bodycolor      : #fff;
 $body-color     : $bodycolor;
-$textcolor      : #839496;
+$textcolor      : #333332;
 $text-color     : $textcolor;
 $border-color   : $text-color;
 $basecolor 		  : #343434;	  
@@ -52,7 +52,7 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-$linkcolor 		    : #2aa198;
+$linkcolor 		    : #343434;
 $link-color       : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
