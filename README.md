@@ -1,1 +1,1 @@
-# windos.github.io
+# king.geek.nz blog
