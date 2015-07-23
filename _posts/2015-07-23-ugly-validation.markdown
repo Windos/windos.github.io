@@ -17,11 +17,11 @@ image:
 
 One of the awesome things you get when adding the [CmdletBinding attribute](https://technet.microsoft.com/en-us/library/hh847872.aspx) to you functions (you are 
 including CmdletBinding, right?) is the ability to use [Parameter Validation Atributes](https://technet.microsoft.com/en-us/library/Hh847743.aspx). These 
-atributes include nifty like allowing or disallowing null values, specifying a valid amount of items that an aray parameter can accept, specifying a set of 
-pre-determined valid values.
+atributes include nifty options like allowing or disallowing null values, specifying a valid amount of items that an aray parameter can accept, specifying a set 
+of pre-determined valid values.
 
 All of these are awesome, and save you a fair amount of work in manually validating user input before using it within the rest of the function. They are checked
-at before your code even runs and gives the end user nice feed back on what was wrong and what to do to fix it.
+before your code even runs and gives the end user nice feed back on what was wrong and what to do to fix it.
 
 {% highlight powershell %}
 function Test
@@ -48,7 +48,7 @@ user's supplied value. _(Note that the value being validated is assigned to the 
 Given that you're specifying your own script, you're free to test literally anything.
 
 * The supplied date should be in the future? Done.
-* The supplied date should be in the future? Done.
+* The supplied date should be in the past? Done.
 * A supplied path should have two parent directories, should contain the letter 'a' and be hidden? Done.
 
 With this flexibility, however, comes (subjectivly) ugly and less than helpful feedback for the user.
