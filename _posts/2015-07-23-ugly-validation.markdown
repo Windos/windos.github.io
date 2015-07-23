@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Giving ValidateScript a Makeover"
-excerpt: ""
+excerpt: "Figure out what you did wrong and don't do it again. Good luck!"
 modified:   2015-07-23
 date:   2015-07-23
 tags: [powershell, advanced-function, validation, ]
