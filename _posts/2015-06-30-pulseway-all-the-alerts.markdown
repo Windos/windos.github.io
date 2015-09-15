@@ -12,7 +12,7 @@ comments: true
 
 Need to monitor some servers (and/or workstations)? [Pulseway](http://www.pulseway.com/) is a good solution. The configuration of what you want alerts on is as simple as putting checks in boxes.
 
-[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/standard-notify.png)](/images/pulseway-all-the-alerts/standard-notify.png)
+[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/standard-notify.png)](/images/pulseway-all-the-alerts/standard-notify.png)
 
 * Need to know when someone logs into your server? **Check**
 * Need to know when someone installs something on your server? **Check**
@@ -86,9 +86,9 @@ Register-ScheduledJob -Name 'Check Server Disk' -ScriptBlock {
 
 Now we need to get Pulseway checking for our new events, this is a case of opening up Pulseway Manager on the monitored server, selecting the *Notifications* tab, then the *Event Log* tab, hitting the check box, clicking add and filling out the details.
 
-[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/notify-eventlog.PNG)](/images/pulseway-all-the-alerts/notify-eventlog.PNG)
+[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/notify-eventlog.PNG)]({{ site.url }}/images/pulseway-all-the-alerts/notify-eventlog.PNG)
 
-[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/event-log-filter.png)](/images/pulseway-all-the-alerts/event-log-filter.png)
+[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/event-log-filter.png)]({{ site.url }}/images/pulseway-all-the-alerts/event-log-filter.png)
 
 It's important to remember to select the right Event Log (Windows PowerShell in this case), the event level, event ID and source that you specified within your script.
 
