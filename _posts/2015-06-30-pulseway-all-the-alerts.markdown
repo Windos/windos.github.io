@@ -4,7 +4,6 @@ title:  "With PowerShell, Pulseway Can Alert on Anything"
 modified:   2015-06-30
 date:   2015-06-30
 tags: [pulseway, powershell, monitoring, alerts]
-comments: true
 ---
 {% include _toc.html %}
 
