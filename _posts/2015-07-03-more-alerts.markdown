@@ -1,10 +1,16 @@
 ---
 layout: post
 title:  "Mini Post: 20 More Pulseway Alerts with PowerShell"
+excerpt: "In this mini post I'll list 20 more ideas for PowerShell fuelled Pulseway alerts."
 modified:   2015-07-03
 date:   2015-07-03
 tags: [pulseway, powershell, monitoring, alerts]
 comments: true
+image:
+ feature: /pulseway-all-the-alerts/banner.jpg
+ credit: Wikimedia Commons
+ creditlink: https://commons.wikimedia.org/wiki/File:US_Navy_030516-N-5862D-010_A_recruit_division_sings_as_they_successfully_complete_the_final_leg_of_a_Battle_Stations_drill.jpg
+ thumb: /pulseway-all-the-alerts/thumb.png
 ---
 
 ### The Pitch

@@ -1,10 +1,16 @@
 ---
 layout: post
 title:  "Giving ValidateScript a Makeover"
+excerpt: "Figure out what you did wrong and don't do it again. Good luck!"
 modified:   2015-07-23
 date:   2015-07-23
 tags: [powershell, advanced-function, validation, ]
 comments: true
+image:
+ feature: /ugly-validation/banner.jpg
+ credit: Nesster
+ creditlink: https://www.flickr.com/photos/nesster/3224581771
+ thumb: /ugly-validation/thumb.jpg
 ---
 
 ### I Feel Validated
@@ -32,7 +38,7 @@ function Test
 This test fucntion has a name parameter, and the `ValidateSet` attribute will only allow John or Jane as valid values. If I try to pass in 'Windos', the function
 doesn't run, and PowerShell lets me know why.
 
-[![ValidateSet Error]({{ site.url }}/images/ugly-validation/ValidateSet.PNG)]({{ site.url }}/images/ugly-validation/ValidateSet.PNG)
+[![ValidateSet Error](/images/ugly-validation/ValidateSet.PNG)](/images/ugly-validation/ValidateSet.PNG)
 
 ### Very Flexible, Yet So Ugly
 
@@ -62,7 +68,7 @@ function Test-PC
 This function takes a Computer Name, but will only run if Test-Connection runs against the supplied name successfully. If I pass in a name I know doesn't exist 
 the validation fails.
 
-[![ValidateScript Error]({{ site.url }}/images/ugly-validation/ValidateScript.PNG)]({{ site.url }}/images/ugly-validation/ValidateScript.PNG)
+[![ValidateScript Error](/images/ugly-validation/ValidateScript.PNG)](/images/ugly-validation/ValidateScript.PNG)
 
 When I read the resulting message, which just blurts out the full validation script, I see: 'Figure out what you did wrong and don't do it again. Good luck!'
 
@@ -103,7 +109,7 @@ function Test-PC
 }
 {% endhighlight %}
 
-[![ValidateScript Custom Error]({{ site.url }}/images/ugly-validation/Custom.PNG)]({{ site.url }}/images/ugly-validation/Custom.PNG)
+[![ValidateScript Custom Error](/images/ugly-validation/Custom.PNG)](/images/ugly-validation/Custom.PNG)
 
 As you can see, the text we specified after the `throw` statement is presented to the user and is a lot easier to understand what the issue is and what needs 
 to be done to correct the situation.

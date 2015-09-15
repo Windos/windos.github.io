@@ -1,17 +1,23 @@
 ---
 layout: post
 title:  "With PowerShell, Pulseway Can Alert on Anything"
+excerpt: "Need to know when your servers CPU is pegged at 100%? Check. Need to know when a disk simply isn't present in the OS after booting up? Uhh..."
 modified:   2015-06-30
 date:   2015-06-30
 tags: [pulseway, powershell, monitoring, alerts]
+comments: true
+image:
+ feature: /pulseway-all-the-alerts/banner.jpg
+ credit: Wikimedia Commons
+ creditlink: https://commons.wikimedia.org/wiki/File:US_Navy_030516-N-5862D-010_A_recruit_division_sings_as_they_successfully_complete_the_final_leg_of_a_Battle_Stations_drill.jpg
+ thumb: /pulseway-all-the-alerts/thumb.png
 ---
-{% include _toc.html %}
 
 ### The Pitch
 
 Need to monitor some servers (and/or workstations)? [Pulseway](http://www.pulseway.com/) is a good solution. The configuration of what you want alerts on is as simple as putting checks in boxes.
 
-[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/standard-notify.png)](/images/pulseway-all-the-alerts/standard-notify.png)
+[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/standard-notify.png)](/images/pulseway-all-the-alerts/standard-notify.png)
 
 * Need to know when someone logs into your server? **Check**
 * Need to know when someone installs something on your server? **Check**
@@ -85,9 +91,9 @@ Register-ScheduledJob -Name 'Check Server Disk' -ScriptBlock {
 
 Now we need to get Pulseway checking for our new events, this is a case of opening up Pulseway Manager on the monitored server, selecting the *Notifications* tab, then the *Event Log* tab, hitting the check box, clicking add and filling out the details.
 
-[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/notify-eventlog.PNG)]({{ site.url }}/images/pulseway-all-the-alerts/notify-eventlog.PNG)
+[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/notify-eventlog.PNG)](/images/pulseway-all-the-alerts/notify-eventlog.PNG)
 
-[![Standard Pulseway Notifications]({{ site.url }}/images/pulseway-all-the-alerts/event-log-filter.png)]({{ site.url }}/images/pulseway-all-the-alerts/event-log-filter.png)
+[![Standard Pulseway Notifications](/images/pulseway-all-the-alerts/event-log-filter.png)](/images/pulseway-all-the-alerts/event-log-filter.png)
 
 It's important to remember to select the right Event Log (Windows PowerShell in this case), the event level, event ID and source that you specified within your script.
 

@@ -1,15 +1,20 @@
 ---
 layout: post
 title:  "Repairing Trust Relationships Without a Reboot"
+excerpt: "Perhaps it was a helpdesk technician powering up a cloned desktop while connected to the network."
 modified:   2014-09-22
 date:   2014-09-22
 tags: [powershell, active-directory, nugget]
 comments: true
+image:
+ feature: /trust-no-reboot/banner.jpg
+ credit: Wikimedia Commons
+ creditlink: https://commons.wikimedia.org/wiki/File:CISV_trust_game.JPG
 ---
 
 It’s hopefully not something that comes up often, but if you work in a Windows environment you will undoubtedly come across machines with trust relationship issues with the domain. Maybe it was an overeager High Availability action on a vSphere guest resulting in two copies of the same server running at once. Or perhaps it was a helpdesk technician powering up a cloned desktop while connected to the network.
 
-[![Trust Relationship Broken]({{ site.url }}/images/trust-no-reboot/trustrelationship.png)]({{ site.url }}/images/trust-no-reboot/trustrelationship.png)
+[![Trust Relationship Broken](/images/trust-no-reboot/trustrelationship.png)](/images/trust-no-reboot/trustrelationship.png)
 
 Suddenly you can’t get onto the machine using your domain credentials.
 
