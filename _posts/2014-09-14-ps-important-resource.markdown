@@ -5,10 +5,6 @@ modified:   2014-09-14
 date:   2014-09-14
 tags: [powershell, help, nugget]
 comments: true
-image:
- feature: /ps-important-resource/banner.jpg
- credit: Wikimedia Commons
- creditlink: https://commons.wikimedia.org/wiki/File:ArtAndFeminismNYC-Generations.jpg
 ---
 
 So you've decided to learn Windows PowerShell. You're probably reading a fair share of blogs, forums and even books. Maybe there is a specific task you're trying to complete and have found out that PowerShell is the only avenue to do so. Or maybe you've heard a lot about PowerShell, and it's ever increasing functionality within Windows, and are curious about how you can make it work for you in your day job.

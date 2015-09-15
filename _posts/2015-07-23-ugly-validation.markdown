@@ -5,11 +5,6 @@ modified:   2015-07-23
 date:   2015-07-23
 tags: [powershell, advanced-function, validation, ]
 comments: true
-image:
- feature: /ugly-validation/banner.jpg
- credit: Nesster
- creditlink: https://www.flickr.com/photos/nesster/3224581771
- thumb: /ugly-validation/thumb.jpg
 ---
 
 ### I Feel Validated

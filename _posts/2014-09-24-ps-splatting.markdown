@@ -5,10 +5,6 @@ modified:   2014-09-24
 date:   2014-09-24
 tags: [powershell, nugget]
 comments: true
-image:
- feature: /ps-splatting/banner.jpg
- credit: Anita Hart
- creditlink: https://www.flickr.com/photos/anitakhart/8734598308
 ---
 
 [Splatting](http://technet.microsoft.com/en-us/library/jj672955.aspx) is a great way of making cmdlet calls with a lot of parameters more legible. You create a hashtable of of the parameter names and their values, which you can format nicely, and pass the hashtable to the cmdlet.
