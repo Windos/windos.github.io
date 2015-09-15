@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Single Most Important Resource When Learning Windows PowerShell"
-excerpt: "There is one thing I learnt to do early on and continue to do to this day: Ask for help."
 modified:   2014-09-14
 date:   2014-09-14
 tags: [powershell, help, nugget]

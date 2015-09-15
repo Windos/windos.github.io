@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "With PowerShell, Pulseway Can Alert on Anything"
-excerpt: "Need to know when your servers CPU is pegged at 100%? Check. Need to know when a disk simply isn't present in the OS after booting up? Uhh..."
 modified:   2015-06-30
 date:   2015-06-30
 tags: [pulseway, powershell, monitoring, alerts]

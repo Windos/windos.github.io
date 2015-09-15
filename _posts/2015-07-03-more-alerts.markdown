@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Mini Post: 20 More Pulseway Alerts with PowerShell"
-excerpt: "In this mini post I'll list 20 more ideas for PowerShell fuelled Pulseway alerts."
 modified:   2015-07-03
 date:   2015-07-03
 tags: [pulseway, powershell, monitoring, alerts]

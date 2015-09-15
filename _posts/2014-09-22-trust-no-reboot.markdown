@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Repairing Trust Relationships Without a Reboot"
-excerpt: "Perhaps it was a helpdesk technician powering up a cloned desktop while connected to the network."
 modified:   2014-09-22
 date:   2014-09-22
 tags: [powershell, active-directory, nugget]

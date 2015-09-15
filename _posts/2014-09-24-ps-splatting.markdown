@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Splatting your way to reduced duplicated code"
-excerpt: "You create a hashtable of of the parameter names and their values, which you can format nicely, and pass the hashtable to the cmdlet."
 modified:   2014-09-24
 date:   2014-09-24
 tags: [powershell, nugget]
