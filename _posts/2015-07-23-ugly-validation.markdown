@@ -77,7 +77,7 @@ When I read the resulting message, which just blurts out the full validation scr
 You're in no way limited to using existing cmdlets in your ValidateScript atribute. You can even specify you're own functions.
 
 Whenever I use ValidateScript I always like to create my own `Validate-*` functions, in which I can do as complex a test as I want and also control the error 
-message that is returned to the user. Your function should return `$true` if the parameter value is valid, and throw and error message if it is not valid.
+message that is returned to the user. Your function should return `$true` if the parameter value is valid, and throw an error message if it is not valid.
 
 {% highlight powershell %}
 function Validate-ComputerName
