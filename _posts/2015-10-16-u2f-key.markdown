@@ -40,7 +40,7 @@ At the bottom of these settings, click on “Register new device” and you’ll
 
 Once you’ve pressed the button, the key will be added to your account and ready to help protect your account.
 
-![Success]/images(/u2f-key/6-alldone.PNG)
+![Success](/images/u2f-key/6-alldone.PNG)
 
 When you next log in, you’ll be able to just press the button again, gain access to your account very quickly.
 
