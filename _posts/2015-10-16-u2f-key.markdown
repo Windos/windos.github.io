@@ -14,7 +14,7 @@ Earlier this month [GitHub announced](https://github.com/blog/2071-github-suppor
 
 A deal too good to pass up, especially as someone that has around ten services listed in their phone’s Authenticator app.
 
-![The Key](/u2f-key/0-key.png)
+![The Key](/images/u2f-key/0-key.png)
 
 Naturally, I picked one up and added it to my GitHub account. Shipping to little old New Zealand was super-cheap, and super-fast.
 
@@ -24,30 +24,30 @@ _n.b. It’s possible that this deal is still available, go to yubi.co/github an
 
 Assuming you have two-factor authentication enabled on your GitHub account, you’ll normally get asked for a six-digit code when you log in like this:
 
-![The Status Quo](/u2f-key/1-login-code.PNG)
+![The Status Quo](/images/u2f-key/1-login-code.PNG)
 
 In order to add a U2F key to your account you’ll need to hit up your account settings, and edit your two-factor authentication settings under the security group:
 
-![GitHub Settings](/u2f-key/2-settings.PNG)
+![GitHub Settings](/images/u2f-key/2-settings.PNG)
 
-![Security](/u2f-key/3-security.PNG)
+![Security](/images/u2f-key/3-security.PNG)
 
 At the bottom of these settings, click on “Register new device” and you’ll be asked to insert the key and press the button (which will light up and flash.)
 
-![Register a Device](/u2f-key/4-register.PNG)
+![Register a Device](/images/u2f-key/4-register.PNG)
 
-![Blinking Key](/u2f-key/5-blink.png)
+![Blinking Key](/images/u2f-key/5-blink.png)
 
 Once you’ve pressed the button, the key will be added to your account and ready to help protect your account.
 
-![Success](/u2f-key/6-alldone.PNG)
+![Success]/images(/u2f-key/6-alldone.PNG)
 
 When you next log in, you’ll be able to just press the button again, gain access to your account very quickly.
 
-![Signing Back In](/u2f-key/7-signbackin.PNG)
+![Signing Back In](/images/u2f-key/7-signbackin.PNG)
 
 And if you happen to not have your key on you, you can still fall back on the other two-factor authentication methods.
 
-![Backup](/u2f-key/8-backup.PNG)
+![Backup](/images/u2f-key/8-backup.PNG)
 
 Now, how else can I use this thing?
