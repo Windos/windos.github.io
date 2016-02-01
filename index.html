@@ -24,7 +24,11 @@ tags: [bio, meta]
             <header class="notepad-post-header">
                 <h3 class="notepad-post-title">
                     <a href="{{ site.url }}{{ post.url }}">
-                        {{ post.title }} <img class="image-pull-right-thumb" src="{{ site.url }}/images{{ post.image.thumb }}">
+						{% if post.image.thumb %}
+							{{ post.title }} <img class="image-pull-right-thumb" src="{{ site.url }}/images{{ post.image.thumb }}">
+						{% else %}
+							{{ post.title }}
+						{% endif %}
                     </a>
                 </h3>
             </header>
