@@ -1068,3 +1068,23 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+/* Float left */
+.pull-left {
+	float: left;
+}
+
+/* Float right */
+.pull-right {
+	float: right;
+}
+.image-pull-right {
+	float: right;
+	margin-top: 0;
+}
+.image-pull-right-thumb {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-height: 150px;
+}
