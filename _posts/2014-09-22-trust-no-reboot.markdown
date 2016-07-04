@@ -26,9 +26,9 @@ Up until recently, the method I used to fix these trust relationships was:
 
 Recently I watched [Orin Thomas’](https://twitter.com/orinthomas) New Zealand TechEd session, [30 common tasks you perform using the GUI that you can do faster in Windows PowerShell](http://channel9.msdn.com/Events/TechEd/NewZealand/2014/DCIM324). One of the 30 tasks Orin covered was fixing domain trust issues.
 
-{% highlight powershell %}
+```powershell
 Test-ComputerSecureChannel -Credential example.com\admin -Repair
-{% endhighlight %}
+```
 
 After running this command, the trust relationship is repaired. No reboot needed.
 

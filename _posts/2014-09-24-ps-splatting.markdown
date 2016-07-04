@@ -22,7 +22,7 @@ Get-WmiObject –computername SERVER-R2 –class Win32_LogicalDisk –filter "Dr
 
 into:
 
-{% highlight powershell %}
+```powershell
 $parms = @{'class'='Win32_BIOS';
            'computername'='SERVER-R2';
            'filter'='drivetype=3';
@@ -30,13 +30,13 @@ $parms = @{'class'='Win32_BIOS';
 }
 
 Get-WmiObject @parms
-{% endhighlight %}
+```
 
 Readability isn't the only reason to splat your parameters. It can also help you reduce mostly duplicated cmdlets calls. In an advanced function I wrote to wrap around the [Send-MailMessage](http://technet.microsoft.com/en-us/library/hh849925.aspx), you could specify _TO_, _From_, _CC_, _SmtpServer_, _Subject_ and _Body_ though parameters. _To_, _From_, _SmtpServer_ and _Subject_ all have default values, but _Body_ and _CC_ did not.
 
 In order to not get errors trying to pass null variables Send-MailMessage, you could use a complex series of **if** statements:
 
-{% highlight powershell %}
+```powershell
 if ($Body -ne $null -and $Body -ne '')
 {
     if ($CC -ne $null -and $CC -ne '')
@@ -59,11 +59,11 @@ else
         Send-MailMessage -SmtpServer $SmtpServer -From $From -To $To -Subject $Subject
     }
 }
-{% endhighlight %}
+```
 
 Four different possible Send-MailMessage calls with largely the same parameters for each. Not very efficient, or readable. Imagine if another parameter or two without default values were added. Splatting, and the ability to add Key=Value pairs to hastables makes this situation a lot more manageable.
 
-{% highlight powershell %}
+```powershell
 $splat = @{'SmtpServer'=$SmtpServer;
            'From'=$From;
            'To'=$To;
@@ -81,4 +81,4 @@ if ($CC -ne $null -and $CC -ne '')
 }
 
 Send-MailMessage @splat
-{% endhighlight %}
+```

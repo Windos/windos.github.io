@@ -23,7 +23,7 @@ of pre-determined valid values.
 All of these are awesome, and save you a fair amount of work in manually validating user input before using it within the rest of the function. They are checked
 before your code even runs and gives the end user nice feed back on what was wrong and what to do to fix it.
 
-{% highlight powershell %}
+```powershell
 function Test
 {
     [CmdletBinding()]
@@ -33,7 +33,7 @@ function Test
         [string] $Name
     )
 }
-{% endhighlight %}
+```
 
 This test fucntion has a name parameter, and the `ValidateSet` attribute will only allow John or Jane as valid values. If I try to pass in 'Windos', the function
 doesn't run, and PowerShell lets me know why.
@@ -53,7 +53,7 @@ Given that you're specifying your own script, you're free to test literally anyt
 
 With this flexibility, however, comes (subjectivly) ugly and less than helpful feedback for the user.
 
-{% highlight powershell %}
+```powershell
 function Test-PC
 {
     [CmdletBinding()]
@@ -63,7 +63,7 @@ function Test-PC
         [string] $ComputerName
     )
 }
-{% endhighlight %}
+```
 
 This function takes a Computer Name, but will only run if Test-Connection runs against the supplied name successfully. If I pass in a name I know doesn't exist 
 the validation fails.
@@ -79,7 +79,7 @@ You're in no way limited to using existing cmdlets in your ValidateScript atribu
 Whenever I use ValidateScript I always like to create my own `Validate-*` functions, in which I can do as complex a test as I want and also control the error 
 message that is returned to the user. Your function should return `$true` if the parameter value is valid, and throw an error message if it is not valid.
 
-{% highlight powershell %}
+```powershell
 function Validate-ComputerName
 {
     Param
@@ -107,7 +107,7 @@ function Test-PC
         [string] $ComputerName
     )
 }
-{% endhighlight %}
+```
 
 [![ValidateScript Custom Error](/images/ugly-validation/Custom.PNG)](/images/ugly-validation/Custom.PNG)
 

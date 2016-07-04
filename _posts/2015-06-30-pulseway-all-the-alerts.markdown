@@ -45,15 +45,15 @@ At a high level:
 
 The first thing you need to do is get your event log ready to accept your custom events. This allows you to specify the 'source' of the events, which makes it easier to filter on them. I also like to put my PowerShell generated events in the Windows PowerShell log (rather than application, or security, or the like.)
 
-{% highlight powershell %}
+```powershell
 New-EventLog -LogName 'Windows PowerShell' -Source 'DiskCheck'
-{% endhighlight %}
+```
 
 This is something you only have to do once, going forward you'll just be referencing the source you've created.
 
 Next, you need to figure out what PowerShell should be checking and script it, including writing to the event log.
 
-{% highlight powershell %}
+```powershell
 function Test-ConnectedDisk
 {
     [CmdletBinding()]
@@ -73,11 +73,11 @@ function Test-ConnectedDisk
         Write-EventLog -LogName 'Windows PowerShell' -Source 'DiskCheck' -EntryType Information -EventId 121 -Message 'Disk is present and accounted for.' -ComputerName $Server
     }
 }
-{% endhighlight %}
+```
 
 I like to put functions like the one above into a module so that they can be easily called by a PS Scheduled Job, and updated without touching the job itself. As for creating the job, I want this check to happen once an hour, on the hour. The job requires network access, as I run a few jobs from a 'script' server and touch remote servers.
 
-{% highlight powershell %}
+```powershell
 $firstRun = Get-Date -Hour $((Get-Date).AddHours(1).Hour) -Minute 0 -Second 0
 
 $jobTrigger = New-JobTrigger -Once -At $firstRun -RepetitionInterval (New-TimeSpan -Minutes 60) -RepeatIndefinitely
@@ -87,7 +87,7 @@ $cred = Get-Credential
 Register-ScheduledJob -Name 'Check Server Disk' -ScriptBlock {
     Test-ConnectedDisk -Server 'test1.example.com' -Disk 'd'
 } -Credential $cred -Trigger $jobTrigger -ScheduledJobOption $jobOptions
-{% endhighlight %}
+```
 
 Now we need to get Pulseway checking for our new events, this is a case of opening up Pulseway Manager on the monitored server, selecting the *Notifications* tab, then the *Event Log* tab, hitting the check box, clicking add and filling out the details.
 
