@@ -22,7 +22,7 @@ Luckily, Plex has a nice [API](https://github.com/mjs7231/python-plexapi/wiki/Un
 
 There is a very handy count there, labelled MediaContainer which gives you and easy to test count on the number of items playing. This makes it pretty easy to query the API, see if anything is playing and then shutdown if not (and try again in 15 minutes if there is something playing.)
 
-{% highlight powershell %}
+```powershell
 $URL = 'http://localhost:32400/status/sessions'
     
 while ($true)
@@ -36,17 +36,17 @@ while ($true)
 
 	Start-Sleep -Seconds 900
 }
-{% endhighlight %}
+```
 
 You'll not that I'm invoking `shutdown.exe` rather than the native PowerShell cmdlet `Stop-Computer`. For whatever reason the cmdlet refused to work within a [Scheduled Job](https://blogs.technet.microsoft.com/heyscriptingguy/2014/05/12/introduction-to-powershell-scheduled-jobs/). Them's the breaks, I guess.
 
 The final piece of the solution is to wrap the above PowerShell statement in a script block and register it as one of the previously mentioned Scheduled Job.
 
-{% highlight powershell %}
+```powershell
 $JobTrigger = New-JobTrigger -Daily -At '8:30 PM'
 $JobOption = New-ScheduledJobOption -RunElevated
 Register-ScheduledJob -Name 'PlexShutdown' -Trigger $JobTrigger -ScheduledJobOption $JobOption -ScriptBlock $ScriptBlock
-{% endhighlight %}
+```
 
 n.b. I did this on the server itself, so there is no remoting happening here.
 
