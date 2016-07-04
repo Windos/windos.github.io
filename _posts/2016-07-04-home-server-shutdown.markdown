@@ -45,7 +45,10 @@ The final piece of the solution is to wrap the above PowerShell statement in a s
 ```powershell
 $JobTrigger = New-JobTrigger -Daily -At '8:30 PM'
 $JobOption = New-ScheduledJobOption -RunElevated
-Register-ScheduledJob -Name 'PlexShutdown' -Trigger $JobTrigger -ScheduledJobOption $JobOption -ScriptBlock $ScriptBlock
+Register-ScheduledJob -Name 'PlexShutdown' 
+					  -Trigger $JobTrigger 
+					  -ScheduledJobOption $JobOption 
+					  -ScriptBlock $ScriptBlock
 ```
 
 n.b. I did this on the server itself, so there is no remoting happening here.
