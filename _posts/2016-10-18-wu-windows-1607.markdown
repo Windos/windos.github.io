@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Validating Prevention of Automatic Reboots on Windows 10, Version 1607"
-excerpt: ""
+excerpt: "Over a year ago, I answered a question on Super User. The question was about stopping the very persistent Windows Update from rebooting without the users’ consent, and wow was that ever a popular topic."
 modified:   2016-10-18
 date:   2016-10-18
 tags: [powershell, superuser, windows-10, windows-update]
