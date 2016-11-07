@@ -10,9 +10,9 @@ image:
  thumb: /win-10-update-up-time/thumb.png
 ---
 
-Three weeks ago, I [started up an expiriment](http://king.geek.nz/2016/10/18/wu-windows-1607/) to find out if an old [SuperUser answer](http://superuser.com/questions/957267/how-to-disable-automatic-reboots-in-windows-10/963933#963933) of mine was still valid.
+Three weeks ago, I [started up an experiment](http://king.geek.nz/2016/10/18/wu-windows-1607/) to find out if an old [SuperUser answer](http://superuser.com/questions/957267/how-to-disable-automatic-reboots-in-windows-10/963933#963933) of mine was still valid.
 
-The TL:DR of the previous post was:
+The TL;DR of the previous post was:
 
 * VMs built running Professional and Enterprise editions of Windows 10, version 1607.
 * PowerShell script is running to collect a screenshot of the VMs every hour.
