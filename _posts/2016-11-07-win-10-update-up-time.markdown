@@ -7,7 +7,7 @@ date:   2016-11-07
 tags: [superuser, windows-10, windows-update]
 comments: true
 image:
- feature: /win-10-update-up-time/thumb.png
+ thumb: /win-10-update-up-time/thumb.png
 ---
 
 Three weeks ago, I [started up an expiriment](http://king.geek.nz/2016/10/18/wu-windows-1607/) to find out if an old [SuperUser answer](http://superuser.com/questions/957267/how-to-disable-automatic-reboots-in-windows-10/963933#963933) of mine was still valid.
