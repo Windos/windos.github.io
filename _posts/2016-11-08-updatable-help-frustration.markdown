@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PowerShell Updateable Help Frustration"
-excerpt: ""
+excerpt: "AAAAAAAAAAAAARRGH!"
 modified:   2016-11-08
 date:   2016-11-08
 tags: [powershell, help, github]
