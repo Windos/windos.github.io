@@ -32,7 +32,7 @@ Also, **NEVER** click the install button within the Windows Update interface unt
 
 ![DANGER](/images/win-10-update-up-time/danger.png)
 
-# That's it?
+### That's it?
 
 Nope, again!
 
