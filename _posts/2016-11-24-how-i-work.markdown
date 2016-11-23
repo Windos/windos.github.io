@@ -2,8 +2,8 @@
 layout: post
 title:  "I'm Josh King, 'IT Pro,' and This Is How I Work"
 excerpt: ""
-modified:   2016-11-23
-date:   2016-11-23
+modified:   2016-11-24
+date:   2016-11-24
 tags: [helpdesk, history]
 comments: true
 image:
