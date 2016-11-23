@@ -21,7 +21,8 @@ This morning (as in... the morning of the day I started writing this post) [Adam
 Consider this my "How I Work" post, and if you're interested in reading more posts from other bloggers make sure you check out the [list of participants](https://github.com/adbertram/HowIWorkIT/blob/master/ThisIsHowIWork.md).
 
 > "I love deadlines. I love the whooshing noise they make as they go by."
-> ~ [Douglas Adams}(https://en.wikipedia.org/wiki/Douglas_Adams), [The Salmon of Doubt](https://en.wikipedia.org/wiki/The_Salmon_of_Doubt)
+>
+> ~ [Douglas Adams](https://en.wikipedia.org/wiki/Douglas_Adams), [The Salmon of Doubt](https://en.wikipedia.org/wiki/The_Salmon_of_Doubt)
 
 ### Where are you located?
 
@@ -68,6 +69,7 @@ The highlights:
 * [CODE Keyboard](https://codekeyboards.com/)
 * Pictures of the kids
 * Pluralsight
+* Fairy Wand
 
 ### What's a typical workweek look like?
 
