@@ -38,7 +38,7 @@ First thing is to make sure you’re got the “Remote Server Administration Too
 (RSAT) installed, which include the associated PowerShell modules. Just head
 over to Google and find the latest install for your version of Windows.
 
-First, get a ‘copy’ of the current reservations on each server:
+Next, get a ‘copy’ of the current reservations on each server:
 
 ```powershell
 $1 = Get-DhcpServerv4Reservation -ComputerName DHCP1 -ScopeId 192.168.1.0
