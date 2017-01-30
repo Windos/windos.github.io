@@ -1,5 +1,5 @@
 ---
-date: "2017-01-20"
+date: "2017-01-30"
 title: "DHCP Reservations: No Cluster? No Problem!"
 ---
 
