@@ -1,6 +1,15 @@
 ---
-date: "2017-01-30"
+layout: post
 title: "DHCP Reservations: No Cluster? No Problem!"
+excerpt: "Have multiple DHCP servers that aren’t in a cluster? Don’t worry!"
+modified: 2017-01-30
+date: 2017-01-30
+tags: [powershell, dhcp, nugget]
+comments: true
+image:
+ thumb: /dhcp-reservations/thumb.png
+ credit: Stefan Andrej Shambora
+ creditlink: https://www.flickr.com/photos/st_a_sh/864708338
 ---
 
 Have multiple DHCP servers that aren’t in a cluster? Don’t worry, there are more
@@ -31,15 +40,19 @@ over to Google and find the latest install for your version of Windows.
 
 First, get a ‘copy’ of the current reservations on each server:
 
-\$1 = Get-DhcpServerv4Reservation -ComputerName DHCP1 -ScopeId 192.168.1.0
+```powershell
+$1 = Get-DhcpServerv4Reservation -ComputerName DHCP1 -ScopeId 192.168.1.0
 
-\$2 = Get-DhcpServerv4Reservation -ComputerName DHCP2 -ScopeId 192.168.1.0
+$2 = Get-DhcpServerv4Reservation -ComputerName DHCP2 -ScopeId 192.168.1.0
+```
 
 Then ‘paste’ them to the alternative server:
 
-\$1 \| Add-DhcpServerv4Reservation -ComputerName DHCP2
+```powershell
+$1 | Add-DhcpServerv4Reservation -ComputerName DHCP2
 
-\$2 \| Add-DhcpServerv4Reservation -ComputerName DHCP1
+$2 | Add-DhcpServerv4Reservation -ComputerName DHCP1
+```
 
 If you’ve got more than two servers, you might want to consider iterating
 through them and if you find yourself doing this a lot you’d benefit from
