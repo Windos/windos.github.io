@@ -8,6 +8,7 @@ tags: [powershell, dhcp, nugget]
 comments: true
 image:
  thumb: /dhcp-reservations/thumb.png
+ feature: /dhcp-reservations/feature.png
  credit: Stefan Andrej Shambora
  creditlink: https://www.flickr.com/photos/st_a_sh/864708338
 ---
