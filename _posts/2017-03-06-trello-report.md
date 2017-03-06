@@ -15,7 +15,7 @@ image:
 At work we've recently ramped up our use of [Trello](https://trello.com/) to
 manage our tasks. It's great, and I recommend anyone that works with lists of
 any description to give it a look. The only problem is, how does one show off
-the work the team has on the coming up, what they're working on, and what they
+the work the team has coming up, what they're working on, and what they
 have ticked off?
 
 You could just bring the Trello board up on a TV or laptop, but nothing
@@ -42,8 +42,8 @@ your own utilization of PowerTrello, so here we go:
 
 ### First things first
 
-There's some preliminary things to do before diving into automating Trello,
-obviously the first thing on the list is installing the module. There's a few
+There's some preliminary things to do before diving into automating Trello.
+Obviously the first thing on the list is installing the module. There's a few
 ways to do this, and Adam include some methods on the GitHub repo; I'll include
 the one I used here:
 
