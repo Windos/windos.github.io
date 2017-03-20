@@ -174,6 +174,8 @@ included the job runs as the system and therefore no toasts are displayed. Set
 the credentials to yourself, which means the toasts will be generated in your
 user context and you’ll see them!
 
+**Edit: This needs to be run from an elevated PowerShell sessions, so make sure you right click and "Run as Administrator"!***
+
 ```powershell
 Register-ScheduledJob -Name StackWatch-PowerShell -Trigger $Trigger -ScriptBlock $JobBlock -Credential domain\user
 ```
