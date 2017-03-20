@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crouton #1 - Toast Notifications for New Stack Overflow Questions"
-excerpt: "Nothing distracts a room full of nerds faster than technology."
+excerpt: "A crouton is a small piece of toast for soup or salads. Or, a small piece of (burnt) toast"
 modified: 2017-03-20
 date: 2017-03-20
 tags: [powershell, crouton, burnttoast]
