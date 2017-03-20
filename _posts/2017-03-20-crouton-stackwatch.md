@@ -12,7 +12,7 @@ image:
  creditlink: http://maxpixel.freegreatpicture.com/Crouton-Food-Bread-1739791
 ---
 
-Earlier this week I pushed an update for the
+Last week I pushed an update for the
 [BurntToast](https://github.com/Windos/BurntToast) PowerShell module to the
 [PowerShell Gallery](https://www.powershellgallery.com/packages/BurntToast).
 This update, version 0.5.2, exposed the ability to add custom buttons to your
@@ -131,7 +131,7 @@ We go ahead and pull up the RSS feed for the desired category, sorted so that
 the latest question is at the ‘top.’
 
 In this example we only check the latest question, so if multiple questions are
-asked within your polling interval (defined later), you want get a toast for all
+asked within your polling interval (defined later), you wont get a toast for all
 of them. This doesn’t seem to happen all that often for the PowerShell category
 unless you only poll once an hour or longer.
 
