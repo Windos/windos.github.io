@@ -1,6 +1,6 @@
 ---
 title: "Always Ask for the API"
-date: 2017-04-20
+date: 2017-04-25
 ---
 
 Opening Text
