@@ -7,7 +7,7 @@ date: 2017-05-08
 tags: [powershell, crouton, burnttoast]
 comments: true
 image:
- thumb: /crouton-clickable/thumb.JPG
+ thumb: /crouton-clickable/thumb.jpg
  credit: Joy (https://www.flickr.com/photos/joyosity/)
  creditlink: https://www.flickr.com/photos/joyosity/12089027613
 ---
