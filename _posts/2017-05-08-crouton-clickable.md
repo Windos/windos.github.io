@@ -28,7 +28,7 @@ forward these posts should be laden with link, including the relevant module:
 
 You better believe it’s possible! A caveat upfront is that this isn’t
 (currently) possible using only `New-BurntToastNotification` function and you’ll
-have to jump into some of the more ‘advanced’ functions.
+have to jump into some of the more "advanced" functions.
 
 First, create a handful of text object that you want displayed on the toast, add
 them to a binding and in turn add the binding to a visual element.
