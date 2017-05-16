@@ -77,8 +77,8 @@ AppId the perfect way of defining which script or process generated the toast.
 Headers give you a way of separating toasts generated via different “channels”
 within a script or process.
 
-As a practical example of this, consider a script that checks for new questions
-of [Stack Overflow.](http://king.geek.nz/2017/03/20/crouton-stackwatch/) Unlike
+As a practical example of this, consider a script that [checks for new questions
+on Stack Overflow.](http://king.geek.nz/2017/03/20/crouton-stackwatch/) Unlike
 the previous example of this, let’s assume that you want to keep track of more
 than one tag. Headers will allow you to keep these questions organized.
 
