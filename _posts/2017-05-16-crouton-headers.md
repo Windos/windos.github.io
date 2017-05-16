@@ -47,7 +47,7 @@ New-BurntToastNotification -Text 'New Stack Overflow Question!', 'More details!'
 There are two places you will see these headers manifest, on the toast
 themselves and in Windows’ Action Center.
 
-On the toast, the header appears as, as you would expect as a headline:
+On the toast, the header appears as, as you would expect, as a headline:
 
 [![Toast with Header](/images/crouton-headers/toast.png)](/images/crouton-headers/toast.png)
 
