@@ -1,6 +1,15 @@
 ---
-date: "2017-08-04"
+layout: post
 title: "Office 365 & PowerShell: Connecting All the Pieces"
+excerpt: "Now that we've figured out how to connect to each of the Office 365 services, it's time to tie a pretty (PowerShell) blue bow on it."
+modified: 2017-08-04
+date: 2017-08-04
+tags: [office365, powershell]
+comments: true
+image:
+ thumb: /o365-all-the-things/thumb.jpg
+ credit: statefarm (https://www.flickr.com/photos/statefarm/)
+ creditlink: https://www.flickr.com/photos/statefarm/8203770880
 ---
 
 Now that we've figured out [how to
@@ -114,6 +123,10 @@ curly brace.
 ```powershell
 }
 ```
+
+Oh, that variable notion of `$Script:Name` is being used here so that the variable 
+is accessible to other functions within this script file… like the disconnect 
+function below.
 
 ### Disconnect-O365Services
 
