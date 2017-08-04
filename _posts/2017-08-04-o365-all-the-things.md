@@ -33,7 +33,7 @@ We know that there are a few requirements we need to meet to establish our
 connection(s) to Office 365, so we might as well put PowerShell to work. Using
 [\#Requires](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/about/about_requires)
 statements allows us to specify that we need PowerShell V3 (for those running
-Windows 7), and all of installable modules. If the requirements aren't met,
+Windows 7), and all of the installable modules. If the requirements aren't met,
 PowerShell will handle letting the user know.
 
 ```powershell
@@ -81,16 +81,16 @@ function Connect-O365Services {
     )
 ```
 
-Tenant is straight forward, it'll just be the name that identifies your Office
-365 instance. If you're using example.onmicrosoft.com for example you'd supply
-example.
+Tenant is straight forward, it's just be the name that identifies your Office
+365 instance. If you're using example.onmicrosoft.com, for example, you'd supply
+"example".
 
 Credential is a little more interesting. You'll note that there are two possible
-object types that it'll accept meaning that you can provide a fully formed
-credential object from Get-Credential or a username as a string, being prompted
+object types that it'll accept allowing you can provide a fully formed
+credential object from `Get-Credential` or a username as a string, being prompted
 for a password at run-time.
 
-We're again making PowerShell work for us by validating that the input for these
+We're making PowerShell work for us again by validating that the input for these
 parameters isn't null (or empty) to save us some error handling.
 
 Next, we'll go through and actually get connected. I won't breakdown each one,
@@ -124,18 +124,18 @@ curly brace.
 }
 ```
 
-Oh, that variable notion of `$Script:Name` is being used here so that the variable 
-is accessible to other functions within this script file… like the disconnect 
+Oh, that variable notion of `$Script:Name` is being used here so that the variables 
+are accessible to other functions within this script file… like the disconnect 
 function below.
 
 ### Disconnect-O365Services
 
-Like a good “tidy kiwi,” we'll also be cleaning up the various remote sessions
+Like a good "tidy kiwi," we'll also be cleaning up the various remote sessions
 we opened with the previous function.
 
 [![a tidy kiwi by leroy - https://www.flickr.com/photos/iiiii/246016049](/images/o365-all-the-things/tidykiwi.jpg)](/images/o365-all-the-things/tidykiwi.jpg)
 
-You'll notice that there is no Disconnect-MsolService cmdlet. Unlike the other
+You'll notice that there is no `Disconnect-MsolService` cmdlet. Unlike the other
 services, there is no actual PS session created, so just disconnect the others
 and close the PowerShell host.
 
