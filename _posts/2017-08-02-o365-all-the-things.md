@@ -10,6 +10,14 @@ want to skip the writeup and see the result, you can check out the
 [Gist](https://gist.github.com/Windos/5f96a9425b5b31c23df441035b478c5f). This
 Gist may get updates in the future.
 
+### Disclaimer
+
+The script created in this post is not a complete solution.
+
+It is very much a starting point with no error handling. It is an all or nothing
+sort of thing, so if your Office 365 tenant does not have Skype for Business
+Online setup, you will probably get errors.
+
 ### Initial housekeeping
 
 We know that there are a few requirements we need to meet to establish our
@@ -24,14 +32,14 @@ PowerShell will handle letting the user know.
 Assuming we don’t meet the requirements, I want to have download links for all
 the relevant installs readily available.
 
-\__insert comment here_\_
+\_*insert comment here*\_
 
 ### Connect-O365Services
 
 Now let’s create our function for connecting to the various services. Start by
 defining the function and its parameters.
 
-\__insert until end of param_\_
+\_*insert until end of param*\_
 
 Tenant is straight forward, it’ll just be the name that identifies your Office
 365 instance. If you’re using example.onmicrosoft.com for example you’d supply
@@ -49,12 +57,12 @@ Next, we’ll go through and actually get connected. I won’t breakdown each on
 as it’s more or less identical to what we’ve [already
 covered](http://king.geek.nz/2017/07/28/o365-connect/).
 
-\__insert connected_\_
+\_*insert connected*\_
 
 The last, and most important, step for this function is to remember the closing
 curly brace.
 
-\__brace_\_
+\_*brace*\_
 
 ### Disconnect-O365Services
 
@@ -67,8 +75,17 @@ You’ll notice that there is no Disconnect-MsolService cmdlet. Unlike the other
 services, there is no actual PS session created, so just disconnect the others
 and close the PowerShell host.
 
-\__insert the script_\_
+\_*insert the script*\_
 
-### Heading
+### There’s always more to do
 
-Text
+As I said in the disclaimer, this isn’t a complete solution. It is a start, and
+will get the job done.
+
+You could add things to this like checking if a service is provisioned on your
+tenant before trying to connect to it or checking to see if the credentials
+you’re using even have permission within that service.
+
+Have you created your own script for getting connected to Office 365, or did
+this post inspire you to make one? If so, send me a link, as I’d love to see
+your implantation.
