@@ -1,5 +1,5 @@
 ---
-date: "2017-08-02"
+date: "2017-08-04"
 title: "Office 365 & PowerShell: Connecting All the Pieces"
 ---
 
