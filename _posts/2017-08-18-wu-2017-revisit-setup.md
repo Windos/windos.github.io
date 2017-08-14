@@ -1,6 +1,6 @@
 ---
 title: "Revisiting Windows Updates in 2017: The Lab Setup"
-date: 2017-08-11
+date: 2017-08-18
 ---
 
 Text
