@@ -14,7 +14,7 @@ image:
 
 A little over a year ago, the United States National Institute for Standards and
 Technology ([NIST](https://www.nist.gov/)) released a draft of [SP 800-63
-Digital Identity Guidelines](https://pages.nist.gov/800-63-3/). These guidelines
+*Digital Identity Guidelines*](https://pages.nist.gov/800-63-3/). These guidelines
 were finalized in June. I first found out about NIST's guidelines via
 [Sophos](https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/)
 and it really captured my imagination.
