@@ -115,8 +115,11 @@ went along the lines of:
 
 > "So, I'm thinking we increase our minimum password length to 12 characters, but
 you won't need to use any capitals, numbers or symbols if you don't want to."
+>
 > "Ehh… I don't…"
+>
 > "Also, you won't have to change your password all the time anymore."
+>
 > "Sold! Where do I sign up?"
 
 It really is an exercise in give and take. We want our users to have longer
