@@ -141,9 +141,7 @@ Manual](https://www.gcsb.govt.nz/publications/the-nz-information-security-manual
 The NZISM contains policies that are part way in line with what NIST recommend:
 
 -   Minimum password length of 10 characters, with complexity, or
-
 -   Minimum password length of 16 characters, without complexity.
-
 -   Change passwords every 90 days.
 
 I actually think having the two lengths is a good way to go about things, though
