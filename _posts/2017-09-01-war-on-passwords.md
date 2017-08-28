@@ -4,7 +4,7 @@ title:  "The War on Passwords"
 excerpt: "The NIST guidelines struck a chord with me. It seemed to be something that our users would embrace while addressing potential issues within any given workplace"
 modified:   2017-08-29
 date:   2017-08-29
-tags: [how-i-work, meta]
+tags: [passwords, security, workplace, meta]
 comments: true
 image:
  thumb: /war-on-passwords/thumb.jpg
