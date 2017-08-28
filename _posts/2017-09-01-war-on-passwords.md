@@ -19,7 +19,7 @@ were finalized in June. I first found out about NIST's guidelines via
 [Sophos](https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/)
 and it really captured my imagination.
 
-(Yes, I'm doing a lot of hyperlinking in this post. Consider it references and
+(Yes, I'm including a few hyperlinks in this post. Consider them references and
 additional reading if you're want to find out more.)
 
 Lately, I've seen several articles in the news on the topic, which has triggered
