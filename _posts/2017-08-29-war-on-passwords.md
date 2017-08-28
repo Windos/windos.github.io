@@ -147,7 +147,7 @@ The NZISM contains policies that are part way in line with what NIST recommend:
 I actually think having the two lengths is a good way to go about things, though
 for me personally I'd be looking at 8 characters for passwords and 12 characters
 for passphrases. This way you're allowing people to still use shorter passwords
-to use them, but you're "rewarding" those who opt to go for a longer secret.
+if they want to, but you're "rewarding" those who opt to go for a longer secret.
 
 It's taken me a long time to come around to the idea, despite understanding and
 agreeing with the logic behind it, but I do think that not forcing password
