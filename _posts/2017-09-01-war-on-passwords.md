@@ -32,15 +32,10 @@ for "memorized secrets" (also known as passwords, passphrases or even pins.) In
 short, these recommendations can be summarized as:
 
 -   Minimum length of 8 characters
-
 -   Maximum password length at least of 64 characters
-
 -   Accept all characters (including emoji)
-
 -   Ban known bad passwords
-
 -   Don't enforce complexity (one uppercase, one number, one symbol)
-
 -   Don't expire passwords without reason.
 
 Chances are, all of this is making you think of an [old XKCD comic
@@ -51,7 +46,6 @@ For the sake of clarity, I'll be referring to two types of "memorized secret"
 during this post:
 
 -   **Password**: Short, and with enforced complexity
-
 -   **Passphrase**: Long without mandatory complexity.
 
 Like I said at the start, the NIST guidelines struck a chord with me. It seemed
@@ -81,7 +75,7 @@ password *Secret6* and it stops working, you know what will probably start
 working for them? *Secret7*.
 
 Rather than keeping your network secure, you're just serving to make users jump
-through hoops that frustrate them and, potentially, could leave them to
+through hoops that frustrate them and, potentially, could lead them to
 committing an even greater sin that just incrementing the number: writing it on
 post-it and sticking it to their monitor. Okay, maybe it won't be that visible,
 but they could be inclined to record it somewhere.
@@ -97,7 +91,6 @@ the value of a longer passphrase vs traditions password (assuming a brute force
 attack at 1000 guesses per second):
 
 -   Tr0ub4dor&3 – Hard to remember, 3 days to crack.
-
 -   correct horse battery staple – Easy to remember, 550 years to crack.
 
 Traditionally, we'd consider that first example to be a top-notch example of
@@ -108,7 +101,7 @@ A longer passphrase takes much longer to brute force, so we should do what we
 can to encourage our users to use them… but they won't if we force them to
 sprinkle in numbers and symbols.
 
-It's a balancing act. One I personally see being well worth, when all I'm giving
+It's a balancing act. One I personally see being well worth it, when all I'm giving
 up is counter-productive complexity rules.
 
 ### My users aren't touch typists, I don't think they'll take to longer passwords
@@ -117,17 +110,14 @@ That's generally the first reaction I've had in my exploration of this topic.
 For me, and eight-character minimum isn't enough… so I went into this proposing
 a minimum of 12 characters.
 
-I talked to several users while writing on my report, for the most part these
-conversations went along the lines of:
+I've talked to several users about this, for the most part these conversations
+went along the lines of:
 
-"So, I'm thinking we increase our minimum password length to 12 characters, but
+> "So, I'm thinking we increase our minimum password length to 12 characters, but
 you won't need to use any capitals, numbers or symbols if you don't want to."
-
-"Ehh… I don't…"
-
-"Also, you won't have to change your password all the time anymore."
-
-"Sold! Where do I sign up?"
+> "Ehh… I don't…"
+> "Also, you won't have to change your password all the time anymore."
+> "Sold! Where do I sign up?"
 
 It really is an exercise in give and take. We want our users to have longer
 passwords, that they can easily remember so they don't write them down, and in
