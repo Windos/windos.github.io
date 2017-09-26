@@ -31,7 +31,7 @@ But how the heck does one do this from within PowerShell?
 
 Surely, it's a given, right?
 
-![PowerShell Trigger](/images/recurrence-pattern/PS-JobTrigger.png.png)
+![PowerShell Trigger](/images/recurrence-pattern/PS-JobTrigger.png)
 
 Apparently not…
 
