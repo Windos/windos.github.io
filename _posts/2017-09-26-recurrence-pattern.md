@@ -47,7 +47,7 @@ its own function and put it up on the PowerShell gallery:
 
 This script will return `true` or `false`, depending on whether the current date
 falls within the specified pattern. For instance, I'm writing this it is the 9th
-of September, 2017 and this example would return `true`:
+of September, 2017 and running this example today returns `true`:
 
 ```powershell
 Test-RecurrencePattern -Day Tuesday – Instance Last
@@ -77,7 +77,7 @@ Register-ScheduledJob -Name 'Report - Second Friday' -Trigger $JobTrigger -FileP
 ```
 
 This job will run every Friday from now on. By testing the recurrence pattern
-within the script file, it won't actual run the report until the 13th of October
+within the script file, it won't actually run the report until the 13th of October
 given that that will be the second Friday of that month.
 
 ### Wrap up
