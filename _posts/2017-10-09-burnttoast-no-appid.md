@@ -64,6 +64,6 @@ registered in the near future.
 
 If you happen to be a particularly gifted scripter (or know what I’m missing,
 which is pretty likely), and can brew up a PowerShell based method for creating
-AppId-laden-shortcut, then feel free to send through a pull request!
+AppId-laden-shortcuts, then feel free to send through a pull request!
 
 [![Sorry Gif](/images/burnttoast-no-appid/toast.gif)](/images/burnttoast-no-appid/toast.gif)
