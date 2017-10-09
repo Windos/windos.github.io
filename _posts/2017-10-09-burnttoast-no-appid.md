@@ -41,7 +41,7 @@ registering an entry in the registry. For those that care about specifics, that
 location is:
 
 ```
-HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Notifications\Settings
 ```
 
 It should be noted, that the entries here are still important, and determine
