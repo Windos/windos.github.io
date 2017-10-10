@@ -4,18 +4,8 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="https://schema.org/WebPage">
-<main id="notepad-page-container" class="notepad-page-container" role="main">
-    
-    
-        <header class="notepad-page-header">
-            <div class="notepad-page-menu-header">
-                
-                    <a class="notepad-blog-logo" href="{{ site.url }}">
-                        <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
-                    </a>
-                
-                
-                
+<main class="notepad-content" role="main">
+<header class="notepad-site-head">
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
         
@@ -49,6 +39,10 @@
         </h1>
         <h2 class="notepad-blog-description">{{ site.description }}</h2>
     </div>
+</header>
+
+
+
 
             {{ content }}
 </main>
