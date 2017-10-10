@@ -45,9 +45,9 @@ links:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pacific/Auckland
 future:      true
-highlighter: rouge
+rouge: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    7
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -58,7 +58,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
   coderay:
     coderay_line_numbers: 
@@ -69,4 +69,4 @@ kramdown:
 
 gems:
 - jemoji
-
+- jekyll-paginate
