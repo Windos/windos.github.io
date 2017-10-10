@@ -52,7 +52,7 @@ If you've read almost any of my previous posts, or follow me on Twitter, you'll 
 
 A fundamental background in C# may have helped me pick it up reasonably fast when I started, I'm not sure. Regardless, it was well worth the effort. PowerShell is one of the ways we manage a large workload.
 
-Other than that, I've grown to love [Pulseway](https://www.pulseway.com/) as a monitoring solution. It's reasonably cheap, can be on-prem or hosted, and can be extended to do almost anything with a [little bit of PowerShell](http://king.geek.nz/2015/06/30/pulseway-all-the-alerts/).
+Other than that, I've grown to love [Pulseway](https://www.pulseway.com/) as a monitoring solution. It's reasonably cheap, can be on-prem or hosted, and can be extended to do almost anything with a [little bit of PowerShell](https://king.geek.nz/2015/06/30/pulseway-all-the-alerts/).
 
 ### What does your workspace look like?
 

@@ -13,7 +13,7 @@ image:
 ---
 
 Now that we've figured out [how to
-connect](http://king.geek.nz/2017/07/28/o365-connect/) to each of the Office 365
+connect](https://king.geek.nz/2017/07/28/o365-connect/) to each of the Office 365
 services, it's time to tie a pretty (PowerShell) blue bow on it. If you just
 want to skip the writeup and see the result, you can check out the
 [Gist](https://gist.github.com/Windos/5f96a9425b5b31c23df441035b478c5f). This
@@ -95,7 +95,7 @@ parameters isn't null (or empty) to save us some error handling.
 
 Next, we'll go through and actually get connected. I won't breakdown each one,
 as it's more or less identical to what we've [already
-covered](http://king.geek.nz/2017/07/28/o365-connect/).
+covered](https://king.geek.nz/2017/07/28/o365-connect/).
 
 ```powershell
     # Connect to Office 365

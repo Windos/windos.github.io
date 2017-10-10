@@ -67,7 +67,7 @@ For reference, the expected result of running `Save-Help` is a copy of both the 
 
 In order to move on from this and get to work on actually finishing the next release of BurntToast, I've installed IIS on my home lab server and dumped the files on there.
 
-Using a URL that points to that, the updateable help is working flawlessly. Unfortunately, I [don't normally](http://king.geek.nz/2016/07/04/home-server-shutdown/) leave this server running 24/7, so I'll need to look for a cheap hosted solution at some stage.
+Using a URL that points to that, the updateable help is working flawlessly. Unfortunately, I [don't normally](https://king.geek.nz/2016/07/04/home-server-shutdown/) leave this server running 24/7, so I'll need to look for a cheap hosted solution at some stage.
 
 There may even be a demand for a community service around this?
 

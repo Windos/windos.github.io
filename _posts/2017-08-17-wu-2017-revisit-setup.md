@@ -23,7 +23,7 @@ you can follow along with the results as they come about.
 
 ### What’s different this time?
 
-[Last time](http://king.geek.nz/2016/10/18/wu-windows-1607/) we monitored the
+[Last time](https://king.geek.nz/2016/10/18/wu-windows-1607/) we monitored the
 prevention of reboots by being logged into the virtual machines and taking timed
 screenshots.
 
@@ -31,7 +31,7 @@ The result was a **lot** of files, using a lot of OneDrive space.
 
 This time around I’ll be feeding the VM’s uptime into a file which GitHub
 renders as a nicely formatted webpage. [Check it
-out](http://king.geek.nz/WindowsUpdateUptime/)!
+out](https://king.geek.nz/WindowsUpdateUptime/)!
 
 If you’re so inclined, [check out the
 code](https://github.com/Windos/WindowsUpdateUptime/blob/master/ReportUptime.ps1)

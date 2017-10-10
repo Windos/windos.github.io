@@ -12,7 +12,7 @@ image:
  creditlink: https://www.flickr.com/photos/joyosity/12089027613
 ---
 
-Buttons, as we have discussed [previously](2017-03-20-crouton-stackwatch.md), are all well and good.
+Buttons, as we have discussed [previously](https://king.geek.nz/2017/03/20/crouton-stackwatch/), are all well and good.
 However, if you’re only adding one to your toast, they can look a little… out of
 place if not outright ugly.
 

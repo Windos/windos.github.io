@@ -20,9 +20,9 @@ module and beyond.
 
 ### Creating a Header
 
-Unlike the [clickable toasts](http://king.geek.nz/2017/05/08/crouton-clickable/)
+Unlike the [clickable toasts](https://king.geek.nz/2017/05/08/crouton-clickable/)
 that we discussed in the last
-[crouton](http://king.geek.nz/tags/index.html#crouton) post, you can use the
+[crouton](https://king.geek.nz/tags/index.html#crouton) post, you can use the
 “basic” `New-BurntToastNotification` function for toasts with headers, however you
 will need to use the `New-BtHeader` function to create the header object (which
 you can then re-use for multiple toasts.)
@@ -78,7 +78,7 @@ Headers give you a way of separating toasts generated via different “channels�
 within a script or process.
 
 As a practical example of this, consider a script that [checks for new questions
-on Stack Overflow.](http://king.geek.nz/2017/03/20/crouton-stackwatch/) Unlike
+on Stack Overflow.](https://king.geek.nz/2017/03/20/crouton-stackwatch/) Unlike
 the previous example of this, let’s assume that you want to keep track of more
 than one tag. Headers will allow you to keep these questions organized.
 
