@@ -100,7 +100,7 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-blog-menu {
       padding-top: 1.75rem;
       padding-bottom: 1.5625rem;
-      font-size: 0.6rem; }
+      font-size: 0.5rem; }
       .notepad-blog-menu ul {
         background: transparent;
         position: relative;
@@ -121,7 +121,7 @@ main, .notepad-share-icons, .notepad-disqus {
           display: inline-block;
           margin-left: 1.25rem;
           width: auto;
-          font-size: 0.8rem;
+          font-size: 0.5rem;
           text-align: left;
           padding: 0; }
           .notepad-blog-menu ul li a {
