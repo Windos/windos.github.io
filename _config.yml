@@ -5,16 +5,16 @@ disqus_shortname: windosgithub
 share:            true
 dropcap:	   true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from https://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	 http://king.geek.nz
+url:        	 https://king.geek.nz
 
 # Owner/author information
 owner:
   name:           Joshua King
   avatar:         bio-photo.jpg
   email:          joshua@king.geek.nz
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  # Use the coder's toolbox at https://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Geek, Father, Walking Helpdesk.
   # Social networking links used in footer. Update and remove as you like.
   twitter:        windosnz
@@ -42,7 +42,7 @@ links:
   - title: About
     url: /about
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Pacific/Auckland
 future:      true
 highlighter: rouge
