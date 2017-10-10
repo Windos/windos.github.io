@@ -4,7 +4,18 @@
 {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="https://schema.org/WebPage">
-<header class="notepad-site-head">
+<main id="notepad-page-container" class="notepad-page-container" role="main">
+    
+    
+        <header class="notepad-page-header">
+            <div class="notepad-page-menu-header">
+                
+                    <a class="notepad-blog-logo" href="{{ site.url }}">
+                        <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
+                    </a>
+                
+                
+                
     <div class="notepad-site-head-menu">
         <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
         
@@ -27,7 +38,7 @@
            <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
     </ul>
 </div>
-        
+        <div class="clearfix"></div>
     </div>
     <div class="notepad-site-head-content" >
         <div class="notepad-site-head-bg"></div>
@@ -38,10 +49,6 @@
         </h1>
         <h2 class="notepad-blog-description">{{ site.description }}</h2>
     </div>
-</header>
-
-
-<main class="notepad-content" role="main">
 
             {{ content }}
 </main>
