@@ -37,7 +37,7 @@ if the output can be fed down the PowerShell pipeline into other scripts.
 If you hadn't guessed, this post will be discussing a complete script. I'm sure
 some readers won't need my explanation to understand the how's and why's of it.
 But if you're wanting to skip to "the goods," you can check out the
-[Gist](https://gist.github.com/Windos/REPLACE-WITH-LIVE-LINK).
+[Gist](https://gist.github.com/Windos/5e33d33f8c3bedd1962f089ed240701b).
 
 For everyone else, know that I'll be deviating from how I normally do these
 types of posts. Instead of reading through the finished script line by line,
@@ -316,7 +316,7 @@ I've not actually shown you any output from all of this yet; it seemed a little
 premature until it all comes together at the end.
 
 Make sure you have a look at the [final
-product](https://gist.github.com/Windos/REPLACE-WITH-LIVE-LINK) all stitched
+product](https://gist.github.com/Windos/5e33d33f8c3bedd1962f089ed240701b) all stitched
 together, wrapped up as a function with some comment-based help.
 
 But, how do you actually use the thing?
