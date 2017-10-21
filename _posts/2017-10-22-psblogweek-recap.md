@@ -23,8 +23,8 @@ my main takeaways.
 
 ### Monday
 
-[Automating Chocolatey package internalizing with PowerShell][Post 1] by
-[Dan Franciscus](https://twitter.com/dan_franciscus).
+**[Automating Chocolatey package internalizing with PowerShell][Post 1] by
+[Dan Franciscus](https://twitter.com/dan_franciscus)**
 
 First up on Monday, Dan discussed tooling for automating the process of getting
 [Chocolatey](https://chocolatey.org/) packages loaded into your company's private
@@ -34,9 +34,9 @@ successfully install.
 This post reminded me that I really need to give [Chocolatey for Business](https://chocolatey.org/pricing)
 a proper look.
 
-[Logging and Error Handling Best Practices for Automating Windows Update Installs
+**[Logging and Error Handling Best Practices for Automating Windows Update Installs
 (MSU) with wusa.exe (And For Logging Any Called Process)][Post 2] by
-[Darwin Sanoy](https://twitter.com/DarwinTheorizes).
+[Darwin Sanoy](https://twitter.com/DarwinTheorizes)**
 
 Also on Monday, Darwin shared some of his logging (and error handling) best practices.
 The article is aimed at wusa.exe, but the takeaways from it can be applied everywhere!
@@ -44,15 +44,15 @@ The main takeaway for me was that I need to up my logging game.
 
 ### Tuesday
 
-[Creating Storage Reports With PowerShell][Post 3] by [Me!](https://twitter.com/WindosNZ).
+**[Creating Storage Reports With PowerShell][Post 3] by [Me!](https://twitter.com/WindosNZ)**
 
 Since this was my article I won't "review" it; if you're reading this then chances are
 pretty high that you've already read it.
 
 ### Wednesday
 
-[Using Desired State Configuration (DSC) Composite Resources][Post 4] by
-[Josh Duffney](https://twitter.com/joshduffney).
+**[Using Desired State Configuration (DSC) Composite Resources][Post 4] by
+[Josh Duffney](https://twitter.com/joshduffney)**
 
 I'm just starting on my Desired State Configuration (DSC) journey at work, so the timing
 of Josh's Wednesday post was great for me. He covered Composite Resources: what they are,
@@ -60,8 +60,8 @@ how to create them, and how to use them.
 
 ### Thursday
 
-[Migration of SQL Server with PowerShell dbatools][Post 5] by
-[Volker Bachmann](https://twitter.com/VolkerBachmann).
+**[Migration of SQL Server with PowerShell dbatools][Post 5] by
+[Volker Bachmann](https://twitter.com/VolkerBachmann)**
 
 Thursday saw Volker demonstrate SQL Server migration with the [dbatools](https://dbatools.io/) module.
 My work tasks don't generally extend very far into the "application" layer, especially
@@ -71,8 +71,8 @@ applications team.
 
 ### Friday
 
-[Using PowerShell to create a vCloud Director Tenant HTML Report][Post 6] by
-[Markus Kraus](https://twitter.com/vMarkus_K/)
+**[Using PowerShell to create a vCloud Director Tenant HTML Report][Post 6] by
+[Markus Kraus](https://twitter.com/vMarkus_K/)**
 
 And wrapping up the week on friday, Markus created HTML reports for vCloud Director. I've
 had no exposure to this particular VMware product... but regardless holy cow those reports
