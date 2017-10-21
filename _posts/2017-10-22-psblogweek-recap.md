@@ -65,7 +65,7 @@ how to create them, and how to use them.
 
 Thursday saw Volker demonstrate SQL Server migration with the [dbatools](https://dbatools.io/) module.
 My work tasks don't generally extend very far into the "application" layer, especially
-where SQL is concerned so the dbatool haven't been too far up on my person "to learn"
+where SQL is concerned so the dbatools module haven't been too far up on my person "to learn"
 list. This post, however, made me realise I need to send some info through to our
 applications team.
 
@@ -78,7 +78,7 @@ And wrapping up the week on friday, Markus created HTML reports for vCloud Direc
 had no exposure to this particular VMware product... but regardless holy cow those reports
 look good!
 
-I'm certainly going to making use of [PowerStart HTML](https://github.com/tdewin/randomsamples/tree/master/powerstarthtml)
+I'm certainly going to be making use of [PowerStart HTML](https://github.com/tdewin/randomsamples/tree/master/powerstarthtml)
 early next week.
 
 ### Thanks
@@ -86,7 +86,7 @@ early next week.
 Fist of all thanks to [Adam](https://twitter.com/adbertram) for putting on the event and to
 all of the bloggers for taking part and producing some awesome content.
 
-But also, thanks for the wider PowerShell (and possible non-PowerShell) community out there
+But also, thanks for the wider PowerShell (and possibly non-PowerShell) community out there
 who read the articles, provided feedback, and liked, shared or otherwise interacted with all
 of us on various social media sites.
 
