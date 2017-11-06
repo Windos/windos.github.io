@@ -87,7 +87,7 @@ $SplitDate = $InputDate.Split('/')
 $OutputDate = '{0}-{1:D2}-{2:D2}' -f $SplitDate[2], [int] $SplitDate[1], [int] $SplitDate[0]
 $OutputDate
 # 2017-11-06
-~~~
+```
 
 Obviously, if you're doing this a lot, you might consider making a function to
 do this over a number of different scripts.
