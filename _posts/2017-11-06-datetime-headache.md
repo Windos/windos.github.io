@@ -2,8 +2,8 @@
 layout: post
 title: "Avoiding DateTime Headaches"
 excerpt: "Sometimes PowerShell just throws the system culture out the window and assumes that you meant to supply the date in the American style."
-modified: 2017-11-06 21:30:00 +1300
-date: 2017-11-06 21:30:00 +1300
+modified: 2017-11-06 21:15:00 +1300
+date: 2017-11-06 21:15:00 +1300
 tags: [powershell, nugget]
 comments: true
 image:
