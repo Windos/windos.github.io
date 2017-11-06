@@ -1,6 +1,6 @@
 ---
 title: "Avoiding DateTime Headaches"
-date: 2017-11-01
+date: 2017-11-06
 ---
 
 Test
