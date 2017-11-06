@@ -29,8 +29,8 @@ Before getting into things, I wanted to thanks [Dan
 Blank](https://twitter.com/danblank000) for inspiring this post during a
 conversation we had on Twitter.
 
-<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="en" dir="ltr">...with the culture now changed, why is this still converting to US format? <a href="https://t.co/eeGb6eY4pi">pic.twitter.com/eeGb6eY4pi</a></p>&mdash; Dan Blank (@danblank000) <a href="https://twitter.com/danblank000/status/917328821652721665?ref_src=twsrc%5Etfw">October 9, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<center><blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="en" dir="ltr">...with the culture now changed, why is this still converting to US format? <a href="https://t.co/eeGb6eY4pi">pic.twitter.com/eeGb6eY4pi</a></p>&mdash; Dan Blank (@danblank000) <a href="https://twitter.com/danblank000/status/917328821652721665?ref_src=twsrc%5Etfw">October 9, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
 As a primer for any American readers, how would you say the date: 12/10/2017?
 
