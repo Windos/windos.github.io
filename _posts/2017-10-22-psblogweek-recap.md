@@ -10,9 +10,6 @@ image:
  thumb: /psblogweek-recap/thumb.jpg
  credit: MedillNSZ (https://www.flickr.com/photos/nationalsecurityzone/)
  creditlink: https://www.flickr.com/photos/nationalsecurityzone/8552562622
-
-title: "#PSBlogWeek 2017 Recap"
-date: 2017-10-22
 ---
 
 Yesterday was the end of the latest [#PSBlogWeek](http://psblogweek.com/). It was
