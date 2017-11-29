@@ -72,7 +72,7 @@ If I'm supplying a date as a string, I always go with the unambiguous [ISO
 8601](https://www.iso.org/iso-8601-date-and-time-format.html) date format,
 YYYY-MM-DD. To revisit the previous example, that would be:
 
-![DateTime from String - Right, because ISO](/images/datetime-headache/PowerShell2.png)
+![DateTime from String - Right, because ISO](/images/datetime-headache/PowerShell3.png)
 
 ### But that's not what I have to work with!
 
