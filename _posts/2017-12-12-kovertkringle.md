@@ -13,7 +13,7 @@ image:
 ---
 
 Given it's the holiday season, I recently spent about 3 hours live streaming the
-development of PowerShell based a [Secret
+development of a PowerShell based [Secret
 Santa](https://en.wikipedia.org/wiki/Secret_Santa) Organizer. You can watch the
 videos from these streams, if you're so inclined, over on
 [YouTube](https://youtu.be/Xr5FKSVu-E4).
@@ -96,6 +96,8 @@ Send-KKNotification
 
 This will send off an email to each of the participants, letting them know their
 "giftee" and also reminds them of the spend limit (in this example, $20)
+
+![Example Email](/images/kovertkringle/example.png)
 
 What about the snitch? They get BCC'ed on all of the email notifications.
 
