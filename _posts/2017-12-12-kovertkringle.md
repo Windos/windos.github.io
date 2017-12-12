@@ -2,8 +2,8 @@
 layout: post
 title: "KovertKringle: Secret Santa With a Dash of PowerShell"
 excerpt: "Given it's the holiday season, I worked on a PowerShell based Secret Santa Organizer"
-modified: 2017-12-12 20:00:00 +1300
-date: 2017-12-12 20:00:00 +1300
+modified: 2017-12-12 19:50:00 +1300
+date: 2017-12-12 19:50:00 +1300
 tags: [powershell, christmas]
 comments: true
 image:
