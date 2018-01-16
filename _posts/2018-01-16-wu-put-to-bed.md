@@ -2,8 +2,8 @@
 layout: post
 title: "Windows Updates: Putting Update Avoidance to Bed"
 excerpt: "There were, and still are, many people frustrated with the fact that Windows 10 would decide to forcibly reboot for updates."
-modified: 2018-01-17
-date: 2018-01-17
+modified: 2018-01-16 20:00:00 +1300
+date: 2018-01-16 20:00:00 +1300
 tags: [windows-10, windows-update]
 comments: true
 image:
@@ -14,13 +14,13 @@ image:
 
 This will be my fourth, and final,
 [post](https://king.geek.nz/tags/#windows-update) on the topic of stopping
-updates from automatically installing in Windows 10.
+updates from automatically installing on Windows 10.
 
 If you're wanting to skip to the punch line:
 
 * Yes, you **can** prevent updates from being installed,
 * No, you **shouldn't** prevent updates from being installed,
-* Do updates on **your** time, but don't leave them sitting there for weeks.
+* Do updates on **your** time, and don't leave them sitting there for weeks.
 
 ### The Road So Far
 
@@ -72,7 +72,7 @@ or even pause updates for a little over month at a time.
 Microsoft still don't want you ignoring updates outright, and I think they've
 done a good job of finding the middle ground.
 
-**Why You Shouldn't Ignore Updates**
+### Why You Shouldn't Ignore Updates
 
 Remember all the talk about Wannacry a while back? Remember all the comments in
 reply to stories from people that got hit?
@@ -87,7 +87,7 @@ secure.
 
 Yes, that means you need to reboot from time to time.
 
-**Reboot on Your Time**
+### Reboot on Your Time
 
 So, to wrap up here's the real fix:
 
