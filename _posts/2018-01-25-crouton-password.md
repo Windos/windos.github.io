@@ -2,8 +2,8 @@
 layout: post
 title: "Crouton #5 – Password Expiry Warning"
 excerpt: "How the heck did that happen, isn't the system meant to give me some warning?"
-modified: 2018-01-25
-date: 2018-01-25
+modified: 2018-01-25 23:30:00 +1300
+date: 2018-01-25 23:30:00 +1300
 tags: [powershell, crouton, burnttoast]
 comments: true
 image:
