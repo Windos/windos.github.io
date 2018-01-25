@@ -22,12 +22,12 @@ to be actioned.
 
 To be fair, these notifications in Windows 7 are pathetic:
 
-\__Windows7 example_\_
+\_*Windows7 example*\_
 
 Windows 10 switched to toasts and they are a step up, but I think we can do
 better:
 
-\__Windows10 example_\_
+\_*Windows10 example*\_
 
 *Note: I don’t know what the situation was like in Windows 8/8.1, I don’t
 remember every joining that OS to a domain.*
@@ -48,18 +48,58 @@ Also, the client will need the Active Directory PowerShell module on the system.
 How you achieve this is up to your… this is meant to be more of a fun “hey look
 what we can do” type exercise that a complete recipe to fix an issue.
 
-### Heading
+Finally, be warned that the examples here include backtick in order to keep the
+snippets narrow. Keep an eye out if you’re copy/pasting.
 
-Text
+### Getting into the Code
 
-### Heading
+Alright, enough jabber, time for the code.
 
-Text
+We start by figuring out how long it is until the current user’s password is
+from expiring. We get this from the computed expiry time property on their AD
+object, and create a timespan between ‘now’ and ‘then’:
 
-### Heading
+\__CODE1_\_
 
-Text
+We only want to show our toast if we’re inside a three-day window of the expiry
+time, so let’s test for that. Then we populate some variables for use within the
+toast’s text.
 
-### Heading
+Finally, we generate the toast!
 
-Text
+\__CODE2_\_
+
+Right, we’ve now got code that can be run on-demand, but that won’t do! Let’s
+get this going on a schedule.
+
+Imagine you’ve wrapped all of the previous code up as a ScriptBlock and then
+create a Job Trigger and Job Options. Take all those components and use them a
+register your scheduled job.
+
+\__CODE3_\_
+
+Unfortunately, we’re not quite done. The current version of Windows 10 defaults
+to running these scheduled jobs whether or not the user is logged in and toasts
+won’t work if that is the case.
+
+We can fix this by borrowing from the Scheduled Task (as opposed to Scheduled
+Job) cmdlets and set the logon type to Interactive.
+
+\__CODE4_\_
+
+You’re done! Our forgetful user will now be notified every ninety minutes
+regarding the impending expiry. The toast is specifically using an alarm tone,
+which makes is stay on the screen for longer and sounds annoying.
+
+If they manage to ignore these notifications, I don’t know if there is any hope
+for them.
+
+### Wrap-Up
+
+That was a fun little exercise and I hope you took something away from it.
+
+Personally, this was the first time I made use of the scheduled task cmdlet to
+tweak one of the jobs rather than doing it via the GUI (the more you know.)
+
+Have you got any uses for toasts that make your life (or your users’ lives)
+easier? Let me know on [twitter](https://twitter.com/WindosNZ)!
