@@ -14,7 +14,7 @@ image:
 
 "Something is wrong with my computer. Outlook is asking me for my password?!"
 
-"Let me look… Oh, it looks like your password expired about 15 minutes ago."
+"Let me look... Oh, it looks like your password expired about 15 minutes ago."
 
 "How the heck did that happen, isn't the system meant to give me some warning?"
 
@@ -29,17 +29,17 @@ I imagine those warnings are probably something like website ads: Invisible.
 They are popping up; the user just didn't process them into something that needs
 to be actioned.
 
-To be fair, these notifications in Windows 7 are pathetic:
+To be fair, these notifications in Windows 7 are pathetic.
 
 [![Password Reminder - Win7](/images/crouton-password/win7.png)](/images/crouton-password/win7.png)
 
 Windows 10 switched to toasts and they are a step up, but I think we can do
-better:
+better.
 
 [![Password Reminder - Win10](/images/crouton-password/win10.jpg)](/images/crouton-password/win10.jpg)
 
 *Note: I don't know what the situation was like in Windows 8/8.1, I don't
-remember every joining that OS to a domain.*
+remember ever joining that OS to a domain.*
 
 ### Get to the Point!
 
@@ -47,15 +47,15 @@ Right, I haven't actually stated what the point of this post is.
 
 Let's create our own toast notifications to remind our users that their
 passwords are about to expire. We'll make these toasts as hard to ignore as
-possible, they'll only be effective if they're actually seen.
+possible as they'll only be effective if they're actually seen.
 
 Given that we're using toasts, via the
-[BurntToast](powershellgallery.com/packages/BurntToast) module, this only
+[BurntToast](https://powershellgallery.com/packages/BurntToast) module, this only
 applies to Windows 10.
 
 Also, the client will need the Active Directory PowerShell module on the system.
-How you achieve this is up to your… this is meant to be more of a fun "hey look
-what we can do" type exercise that a complete recipe to fix an issue.
+How you achieve this is up to you... this is meant to be more of a fun "hey look
+what we can do" type exercise than a complete recipe to fix an issue.
 
 Finally, be warned that the examples here include backtick in order to keep the
 snippets narrow. Keep an eye out if you're copy/pasting.
@@ -92,8 +92,8 @@ if ($TimeToGo -le 3) {
         
     New-BurntToastNotification -Sound Alarm10 `
         -Text 'Your password is close to expiring!',
-                "Please change your password soon, it will expire in $Count $Unit.",
-                'You can change it any time by pressing CTRL + ALT + DEL and choosing "Change a password."'
+              "Please change your password soon, it will expire in $Count $Unit.",
+              'You can change it any time by pressing CTRL + ALT + DEL and choosing "Change a password."'
 }
 ```
 Right, we've now got code that can be run on-demand, but that won't do! Let's
