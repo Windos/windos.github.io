@@ -15,12 +15,11 @@ image:
 I can't tell you how happy I am to be writing this post.
 
 AppId's have been a [thorn in my
-side](https://king.geek.nz/2017/10/09/burnttoast-no-appid/) for a long time. For
-a long time (since the start, really) I've been abusing a loophole. Recent
-versions of Windows 10 closed that loophole, which resulted in my removing the
-ability to easily set a custom AppId.
+side](https://king.geek.nz/2017/10/09/burnttoast-no-appid/) for a long time. I've
+been using a loophole to get toasts displayed which recent versions of Windows
+10 closed. This resulted in my removing the ability to easily set a custom AppId.
 
-The fix in the short term was to hard code the
+The fix in the short term was to hard code
 [BurntToast](https://www.powershellgallery.com/packages/BurntToast)'s default
 AppId to that of powershell.exe. This allowed toasts to be displayed again, but
 in the Action Center they would appear greyed out… not nice.
