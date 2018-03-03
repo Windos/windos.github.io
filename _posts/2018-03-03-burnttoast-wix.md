@@ -143,7 +143,7 @@ be a **.msi** installer
 ### Run the Installer
 
 Now run your installer and find that you've got a new item in your Start Menu.
-Double check its AppId by running: Get-StartApps
+Double check the AppId by running: `Get-StartApps`
 
 If your aim was to use this for toasts via the [BurntToast
 module](https://www.powershellgallery.com/packages/BurntToast), pop that AppId
