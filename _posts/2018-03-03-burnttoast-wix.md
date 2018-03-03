@@ -124,7 +124,7 @@ I mentioned above.
 
 Put these images in the same directory as your **.wxs** file and give them the same
 name as what you used to replace \_\_NAME\_\_ in the template. If your first image
-is not a PNG, you'll have to update that in the **.wxs** file too.
+is not a **.png**, you'll have to update that in the **.wxs** file too.
 
 ### Light the Candle
 
