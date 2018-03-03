@@ -97,15 +97,15 @@ You'll notice four GUID values in there, they need to be unique, but you don't
 need to put much thought at all into them. Just run `New-Guid` four times and use
 the output to replace:
 
-* \__GUID1_\_ - Line 3
-* \__GUID2_\_ - Line 18
-* \__GUID3_\_ - Line 26
-* \__GUID4_\_ - Line 24
+* \_\_GUID1\_\_ - Line 3
+* \_\_GUID2\_\_ - Line 18
+* \_\_GUID3\_\_ - Line 26
+* \_\_GUID4\_\_ - Line 24
 
-Next, replace all instances of \__NAME_\_ with the name you want associated your
+Next, replace all instances of \_\_NAME\_\_ with the name you want associated your
 AppId. This will be visible on your toasts and in the Action Center.
 
-Finally replace all instances of \__MANUFACTURER_\_ with… something. I used my
+Finally replace all instances of \_\_MANUFACTURER\_\_ with… something. I used my
 blog URI (king.geek.nz). This will form part of the AppId but won't be visible
 to end users, unless they go looking through the Program Files directory.
 
@@ -123,7 +123,7 @@ had an icon ready to go for BurntToast. You may just end up converting the image
 I mentioned above.
 
 Put these images in the same directory as your **.wxs** file and give them the same
-name as what you used to replace \__NAME_\_ in the template. If your first image
+name as what you used to replace \_\_NAME\_\_ in the template. If your first image
 is not a PNG, you'll have to update that in the **.wxs** file too.
 
 ### Light the Candle
