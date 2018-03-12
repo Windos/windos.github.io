@@ -19,8 +19,8 @@ The [Australasia Management
 Challenge](http://www.managementchallenge.com.au/about-the-challenge.html) is a
 professional development program and competition held in New Zealand and across
 Australia. I’m part of a team taking part and we’re rapidly closing in on D-Day.
-The lead up has taken up a lot more of my time out side of work than I had
-anticipated, but it’s been a great experience.
+The lead up has taken up a lot more of my personal time than I had anticipated,
+but it’s been a great experience.
 
 That said, I’m looking forward to seeing the tail end of the challenge day and
 finding out how the team and I did.
@@ -31,11 +31,11 @@ We’re less than a month away from the PowerShell + DevOps Global Summit and I
 have been, and will be for the next while, polishing off [my
 session](http://sched.co/Cq9V).
 
-I’ve arranged a practice run at work for later in the month, which I’m looking
+I’ve arranged a practice run at work for later in the month, which I’m both looking
 forward to and petrified of in equal measure.
 
 My slide deck has been uploaded to Sched, but the bulk of the content is in the
-demos. This will be online before, but much closer to, the event.
+demos. These will be online before, but much closer to, the event.
 
 ### What about the videos?
 
@@ -54,7 +54,7 @@ and so should you! It’s a PowerShell community event on Twitter, facilitated b
 [Jeffery Hicks](https://twitter.com/JeffHicks).
 
 It happens on the first Friday of every month, from 1PM Eastern US time.
-Officially it lasts for an hour, but there’s no need to cut off a conversation
+Officially it lasts for an hour, but there’s no need to cut a conversation
 short.
 
 It’s a great time to ask any questions, share what you’ve been working on, and
