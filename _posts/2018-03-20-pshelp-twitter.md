@@ -64,12 +64,16 @@ keeping an eye on \#PSHelp on Twitter.
 
 You'll need to have [BurntToast](https://powershellgallery.com/packages/BurntToast) installed for this to work.
 
+**Note** that this code is intended to be run once. Parts of it will throw an
+error if you run is a second time, specifically creating a registry key and
+registering the scheduled job.
+
 ```powershell
 # This needs to be run in an elevated PowerShell session.
 
 # Setup a 'scratch' location in the registry, to prevent re-alerting on the same tweet.
 New-Item -Path 'HKCU:\SOFTWARE\PowerShell-Scratch'
-Set-ItemProperty -Path 'HKCU:\SOFTWARE\PowerShell-Scratch' -Name 'PSHelp-LastId' –Value ‘FirstRun'
+Set-ItemProperty -Path 'HKCU:\SOFTWARE\PowerShell-Scratch' -Name 'PSHelp-LastId' –Value 'FirstRun'
 
 # Define the job block whick will be run on a schedule via a Scheduled Job
 $JobBlock = {
