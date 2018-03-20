@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Need PowerShell Help? Use #PSHelp!"
-excerpt: "If you're looking for some help, try \#PSHelp. If you've got knowledge to share (and you do), make sure you jump in and get involved!"
+excerpt: "If you're looking for some help, try #PSHelp. If you've got knowledge to share (and you do), make sure you jump in and get involved!"
 modified: 2018-03-20 21:00:00 +1300
 date: 2018-03-20 21:00:00 +1300
 tags: [powershell, burnttoast, help]
