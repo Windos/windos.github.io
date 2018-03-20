@@ -16,7 +16,7 @@ Lately, I've been thinking about how much I
 [enjoy](https://king.geek.nz/2018/03/12/where-are-you/#pstweetchat) taking part
 in the monthly
 [\#PSTweetChat](https://twitter.com/search?f=tweets&vertical=default&q=%23PSTweetChat&src=typd)
-event on Twitter and how awesome the PowerShell community on Twitter is
+event on Twitter and how awesome the PowerShell community on there is
 (seriously, y'all rock!)
 
 If possible, I'd love to try and help steer that amazing community towards a
