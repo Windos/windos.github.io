@@ -1,5 +1,5 @@
 ---
-date: "2018-03-26 23:00:00 +1300"
+date: "2018-03-26 22:30:00 +1300"
 title: "Veeam: My First Virtual Lab"
 ---
 
@@ -86,23 +86,118 @@ look through, and make any changes that suit your needs.
 
 ### Deploy Your Virtual Lab
 
-Text
+Just below “Application Groups” in the console, you’ll find “Virtual Labs.” This
+is a little more involved than the previous section, so prepare for a few more
+screenshots.
+
+Again, add a Virtual Lab and give it a descriptive name.
+
+Choose a host which will be the home of your lab. Unfortunately, it has to be a
+specific host and cannot be a cluster. The wizard will show you some stats about
+the host you’ve selected, such as how many VMs are currently running on it.
+Also, click on “Configure” to define a folder into which the lab can be stored
+in (keeping vCenter nice and tidy.)
+
+lab-host.png
+
+It’s more or less the same process for a datastore, except that there’s no
+customization..
+
+Here’s where things start to get interesting. You now need to configure the
+proxy appliance for this lab. Give it a name (you will see this pop up in
+vCenter), set which production network it should connect to, and give it a
+static IP address. Technically you could let it obtain one from DHCP, but you’ll
+be routing traffic to this later so I prefer to not risk it moving around.
+
+Also, you can tick a box here to allow the appliance to act as a proxy so that
+the lab can access the internet. I’ll be assuming that this is what you want
+during the rest of this post.
+
+Lab-proxy.png
+
+You might be able to make use of a basic single-host networking configuration,
+however my environment meant I had to go for an advanced one.
+
+Lab-advances.png
+
+The defaults on the Isolated Networks page was perfect for me. Make sure you
+sanity check what’s there.
+
+The next page has you configure the internal network for your lab. The two main
+this here is setting the address which your lab will see the proxy as and what
+the “masquerade” range should be (we’ll touch more on what this is for later).
+
+Generally, you want to set the address of the proxy to match what would normally
+be your network’s gateway address, and for the masquerade range pick something
+that is unique on your network. In this example we’re pretending that the
+production network is 10.1.1.x, the gateways is 10.1.1.254 and we’ve set our
+masquerade range to 10.1.**2**.x.
+
+Lab-network.png
+
+I didn’t need to define any static mappings, and just completed the wizard.
 
 ### Mix It Together with SureBackup
 
-Text
+The simplest part of this process is creating the actual SureBackup job. Head
+over to the “Home” section and go to “SureBackup” under “Jobs.”
+
+Create a new job, specifying your Application Group and Virtual Lab.
+
+The only thing to watch out for is the “Keep the application group running after
+the job completes” check box on the Application Group page. This means that the
+lab will stay up and the job will keep running allowing you to use the VMs for
+your testing purposes.
+
+You can set schedules if you want, though I just run my lab on demand.
+
+Finally, go ahead and run the job. Over the next short while you’ll see your lab
+VMs pop up in vCenter. When the job gets to 99% they’re ready for you… but how?
 
 ### Getting into the Lab
 
-Text
+Remember how we set a static IP for the proxy appliance and a masquerade IP
+range? Here’s where we’ll use them.
+
+You can set a route on your local machine, pointing all traffic to that range to
+the proxy’s IP address:
+
+route –p ADD 10.1.1.2.0 MASK 255.255.255.0 10.1.1.199
+
+This didn’t work for me, and I ended up having to set the route on our core
+switching. The specifics of this will depend on your switch/router vendor, so
+talk to your network team if you’re not sure.
+
+Once that route is in place you should be able to ping or RDP the servers in
+your lab (assuming there is not firewalls in the way) using their masqueraded
+IP. For example if your SQL server is 10.1.1.10 in production, you can reach it
+via 10.1.2.10 now (note that this is only for prod to lab communication, the
+environment inside the lab knows no difference, so they all think they’re on the
+original addresses.)
+
+But what about getting internet access? Jump onto each VM that needs internet,
+and set a proxy address of that of the gateway (or whatever you set the proxy
+to) and whatever port you’d configured, it defaults to 8080. That’s it, you’re
+good to go.
 
 ### Tear It Down (And Rebuild)
 
-Text
+Back in the Veeam console, find your SureBackup job and click stop. It will
+power down each of the VMs and handle removing them from vCenter. You can now
+start this again at any time as and when you need it.
+
+Each time you start the lab, you’re VMs will be provisioned from the latest
+restore points, so refreshing your lab should be as simple as restarting the
+SureBackup job.
 
 ### The Bits I’m Still Working On
 
-Text
+At the moment, I need to manually update DNS settings on each of my VMs, because
+the DNS server I’m restoring isn’t one of the two we general default to. I’m
+also configuring the proxy settings for internet access by hand.
+
+I’m working on scripting this, so that redeploying the lab is even easier (and
+doesn’t require my input if other people need it.)
 
 ### Closing Thoughts
 
