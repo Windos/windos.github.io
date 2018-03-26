@@ -2,8 +2,8 @@
 layout: post
 title: "Veeam: My First Virtual Lab"
 excerpt: "Over the last day or so I've been setting up a sandbox/virtual lab which leverages our Veeam backups."
-modified: 2018-03-26 22:30:00 +1300
-date: 2018-03-26 22:30:00 +1300
+modified: 2018-03-26 22:00:00 +1300
+date: 2018-03-26 22:00:00 +1300
 tags: [Veeam]
 comments: true
 image:
@@ -16,7 +16,7 @@ Over the last day or so I've been setting up a sandbox/virtual lab which
 leverages our Veeam backups. We've been using
 [SureBackup](https://www.veeam.com/videos/surebackup-how-it-works-22.html) for
 automatic restore point verification, but a large software update that's coming
-down the pipeline was a really good excuse the get a semi-persistent lab
+down the pipeline was a really good excuse to get a semi-persistent lab
 running.
 
 This post goes through the process of setting up a lab from start to finish. I'd
@@ -57,9 +57,9 @@ what, where, and when.
 
 **What** – Application Group
 
-This defines which VMs will be part of your lab. It can also define which
-special role each VM performs and any non-standard timings are needed. For
-example one of your VMs may be a domain control that takes a really long time to
+This defines which VMs will be part of your lab. It can also specify which
+special role each VM performs and any non-standard timings that are needed. For
+example, one of your VMs may be a domain control that takes a really long time to
 boot for whatever reason.
 
 **Where** – Virtual Lab
