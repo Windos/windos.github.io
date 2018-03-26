@@ -26,7 +26,10 @@ opening up the GUI one way or another. The Veeam forums indicate that more
 PowerShell configuration will be possible in the future, but there’s no
 timeframes yet.
 
-If more PowerShell support is important to you, make sure you let Veeam know!
+Don’t get me wrong, [Veeam’s PowerShell
+support](https://helpcenter.veeam.com/docs/backup/powershell/getting_started.html?ver=95)
+is awesome, but if there’s something missing that’s important to you make sure
+you let them know!
 
 The Veeam PowerShell Snap-In (ergh, the sooner this is a module, the better) is
 installed alongside the Veeam Backup & Recovery Console. Load it like any
@@ -38,17 +41,51 @@ Then connect to your B&R server:
 
 Connect-VBRServer -Server VeeamBR1
 
+Finally, I’m working against a VMware environment. Some commands will be
+different if you’re running Hyper-V.
+
 ### The Ingredients
 
-What – Application Group
+Here’s something I didn’t realize until diving into this; despite marketing
+terms like “[On-Demand
+Sandbox](https://helpcenter.veeam.com/docs/backup/vsphere/sandbox.html?ver=95)”
+being thrown around, this isn’t actually the name of the feature so don’t bother
+hunting through the console like I did. It’s actually just another way of using
+SureBackup.
 
-Where – Virtual Lab
+So what is involved? There’s three components which I like to think of as the
+what, where, and when.
 
-When – SureBackup Job
+**What** – Application Group
+
+This defines which VMs will be part of your lab. It can also define which
+special role each VM performs and any non-standard timings are needed. For
+example one of your VMs may be a domain control that takes a really long time to
+boot for whatever reason.
+
+**Where** – Virtual Lab
+
+There’s a bunch involved here, but at the end of the day this results in an
+appliance that sits in your virtual infrastructure and acts as a proxy/gateway
+between your lab and the rest of the network.
+
+**When** – SureBackup Job
+
+This job links your Application Group with your Virtual Lab. You can set this
+job to run automatically at certain times (you’d do this for automatically
+verifying the integrity of your restore points), but this particular job will be
+run on demand.
 
 ### Group Your Applications
 
-Text
+First, let setup our **Application Group**. I’m going to assume we’re setting up
+this lab to test a major software update, which is installed on **APP1**. This
+solution is supported by a database on **SQL1**. For good measure, I’ll make
+sure we also have a Domain Controller, **AD1**, available for my identity needs.
+
+In this PowerShell snippet, please be aware that the order you list your VMs
+determines which order they are brought up in. You can change this order via the
+GUI, but I like to get it right at this stage (just in case I forget later).
 
 ### Deploy Your Virtual Lab
 
