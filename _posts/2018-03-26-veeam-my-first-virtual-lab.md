@@ -1,5 +1,5 @@
 ---
-date: "2018-03-26 21:00:00 +1300"
+date: "2018-03-26 23:00:00 +1300"
 title: "Veeam: My First Virtual Lab"
 ---
 
@@ -20,29 +20,19 @@ do hope you find this useful.
 
 ### A (PowerShell) Caveat
 
-I’ll be using PowerShell as much as possible during this, but the harsh reality
-is that you cannot do everything necessary through the shell and you’ll be
-opening up the GUI one way or another. The Veeam forums indicate that more
-PowerShell configuration will be possible in the future, but there’s no
-timeframes yet.
+I’d originally wanted to include the PowerShell method for as much of this
+process as possible, but unfortunately a lot of the commands just outright
+aren’t working as advertised for me. This could be an issue with the version I’m
+running (9.5 Update 3) or our particular VMware setup.
 
 Don’t get me wrong, [Veeam’s PowerShell
 support](https://helpcenter.veeam.com/docs/backup/powershell/getting_started.html?ver=95)
-is awesome, but if there’s something missing that’s important to you make sure
-you let them know!
+is awesome, but if it ventures too far into the “advanced”, it can be a little
+lacking at times. If something isn’t working, or they’re missing something
+that’s important to you, make sure you let them know!
 
-The Veeam PowerShell Snap-In (ergh, the sooner this is a module, the better) is
-installed alongside the Veeam Backup & Recovery Console. Load it like any
-Snap-In:
-
-Add-PSSnapin VeeamPSSnapin
-
-Then connect to your B&R server:
-
-Connect-VBRServer -Server VeeamBR1
-
-Finally, I’m working against a VMware environment. Some commands will be
-different if you’re running Hyper-V.
+In my experience Veeam’s support team is one of the best in the industry. Don’t
+hesitate to talk with them.
 
 ### The Ingredients
 
@@ -83,9 +73,16 @@ this lab to test a major software update, which is installed on **APP1**. This
 solution is supported by a database on **SQL1**. For good measure, I’ll make
 sure we also have a Domain Controller, **AD1**, available for my identity needs.
 
-In this PowerShell snippet, please be aware that the order you list your VMs
-determines which order they are brought up in. You can change this order via the
-GUI, but I like to get it right at this stage (just in case I forget later).
+Fire up your Backup & Recovery Console, head over to the “Backup Infrastructure”
+section and look for “Application Groups” under SureBackup. Go ahead and create
+a new group, give it a descriptive name and add your VMs.
+
+Appgroup.png
+
+You’ll note that I marked my Domain Controller for an authoritative restore (I
+had domain trust issues without this.) This is where you can adjust the order in
+which the VMs are restored, and to tweak any other VM specific settings. Have a
+look through, and make any changes that suit your needs.
 
 ### Deploy Your Virtual Lab
 
