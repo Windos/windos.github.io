@@ -28,10 +28,10 @@ something that might actually be useful.
 **Take off the Training Wheels**
 
 The natural first steps for someone creating toast notifications is the
-New-BurntToastNotification function. This function is meant to be a short runway
+`New-BurntToastNotification` function. This function is meant to be a short runway
 for getting off the ground, it exposes enough customizability to tailor your own
 basic notifications. It also has enough default values that you can run the
-function raw and get *something* no screen.
+function raw and get *something* on screen.
 
 Behind the scenes, there are 15 other functions available to create your
 preferred flavor of toast.
@@ -62,7 +62,7 @@ Submit-BTNotification -Content $Content1
 ```
 
 Yes, there's a lot going on there, especially compared to the basic function.
-I'll go over more of those command today and try my best to focus the rest of
+I'll go over more of those commands another day and try my best to focus the rest of
 this post on the original tweet.
 
 ### This Song Is My Jam
@@ -88,7 +88,7 @@ $Audio1 = New-BTAudio -Path 'C:\Music\FavSong.mp3'
 
 That's really all there is to getting toasts to play custom sounds. The biggest
 hurdle really is just switching over from `New-BurntToastNotification`. Once
-you've made that change, the rest is a simple change.
+you've made that change, the rest is simple.
 
 If you're doing something interesting with BurntToast, or you're figuring out
 how to do something with it, let me know in the comments below or over on
