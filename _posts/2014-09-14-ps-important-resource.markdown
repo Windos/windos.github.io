@@ -7,7 +7,7 @@ date:   2014-09-14
 tags: [powershell, help, nugget]
 comments: true
 image:
- feature: /ps-important-resource/banner.jpg
+ thumb: /ps-important-resource/banner.jpg
  credit: Wikimedia Commons
  creditlink: https://commons.wikimedia.org/wiki/File:ArtAndFeminismNYC-Generations.jpg
 ---

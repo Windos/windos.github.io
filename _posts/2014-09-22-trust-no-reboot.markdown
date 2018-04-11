@@ -7,7 +7,7 @@ date:   2014-09-22
 tags: [powershell, active-directory, nugget]
 comments: true
 image:
- feature: /trust-no-reboot/banner.jpg
+ thumb: /trust-no-reboot/banner.jpg
  credit: Wikimedia Commons
  creditlink: https://commons.wikimedia.org/wiki/File:CISV_trust_game.JPG
 ---
