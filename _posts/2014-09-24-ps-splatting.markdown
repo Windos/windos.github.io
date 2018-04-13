@@ -7,7 +7,7 @@ date:   2014-09-24
 tags: [powershell, nugget]
 comments: true
 image:
- feature: /ps-splatting/banner.jpg
+ thumb: /ps-splatting/banner.jpg
  credit: Anita Hart
  creditlink: https://www.flickr.com/photos/anitakhart/8734598308
 ---
