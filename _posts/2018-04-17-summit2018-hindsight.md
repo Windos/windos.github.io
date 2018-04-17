@@ -1,6 +1,15 @@
 ---
-date: "2018-04-17 22:00:00 +1200"
+layout: post
 title: "A Quick Look Back at #PSHSummit 2018"
+excerpt: "After another three flights, and 16 hours in the air, I’m back home in New Zealand."
+modified: 2018-04-17 13:15:00 +1200
+date: 2018-04-17 13:15:00 +1200
+tags: [powershell, pshsummit, meta]
+comments: true
+image:
+ thumb: /summit2018-hindsight/thumb.jpg
+ credit: elbert chu
+ creditlink: https://www.flickr.com/photos/32779893@N00/56012414/in/photolist-5X5xh-BR35f-5xagJQ-rGkZG-hHPLG-ncJ4GD-93qnKt-7mC1mn-9XtEKC-hPexJ-9r8VHp-5jys7v-h9e8p-4wNmEY-8Hvr9X-qnJu3-4Q4632-8HyJad-8HyHS5-8HyJdm-62u2c3-8HyHv5-8HvyWD-aw8gQm-8HyHD5-81tA3-8ecFzD-8HyHnU-8HvzzT-8HvzWP-SFo7H2-npste-fkZicc-7ccNx6-RCKKjV-aUqxVp-RA9k9U-8ktTky-SCJrjE-SCWGJd-dHMotN-ShMpm3-TrTahT-SanEjd-SFqf7X-Saqts7-Sd3jiv-ShMjEQ-SRWf2f-SSCQxz
 ---
 
 After another three flights, and 16 hours in the air, I’m back home in New
@@ -31,7 +40,6 @@ I’ve got a handful of scripts that it’d be very handy for the support team a
 work to be able to use, but there’s two problems:
 
 1.  They don’t have the permissions needed to run them
-
 2.  They aren’t fully up to speed on PowerShell (yet!)
 
 My hope was that I’d be able to use
