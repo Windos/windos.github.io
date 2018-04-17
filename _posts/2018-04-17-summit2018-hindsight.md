@@ -19,7 +19,7 @@ soon that I hadn’t had a chance to process everything.
 
 Here’s hoping I picked the right time!
 
-### Main Takeaways
+### My Main Takeaways
 
 I came home from the Summit with three main things I’m going to be following up
 on right away. You’ll probably be seeing blog posts on these topics as I work my
@@ -73,29 +73,74 @@ human error.
 I really like how Puppet handles inclusion of DSC, which is what got this on my
 list instead of just raw DSC.
 
-### Header
+### The Content Was Great
 
-Text
+There was a good mix of new and experienced speakers and they covered a wide
+range of topics. The organizers did an excellent job of scheduling all of the
+content and every single time slot was a difficult choice between two or more
+talks.
 
-### Header
+They say in the brochure for the Summit that it’s a highly technical event, and
+they weren’t wrong. A good number of the talks were firmly over my head, and I
+could tell that from the synopsis, but even in those cases there was good
+information to be had.
 
-Text
+I’m not impatiently waiting for the session recordings to be released (which
+could be a month or more) to catch the sessions I couldn’t make it to and
+re-watch those I did attend but feel like I may have missed something.
 
-### Header
+### But the Community Is What Makes the Summit
 
-Text
+The PowerShell community is one of the best tech communities out there. You can
+get a taste of this on Twitter, but that only tells half of the story.
 
-### Header
+When you get a bunch of PowerShell people in the same room, it’s amazing the
+conversations that come up. Everyone comes from different backgrounds and works
+in different environments. But we’re all facing the same issues (maybe at
+different scales) and solutions that you’d never have dreamed of always come up
+in this environment.
 
-Text
+The community is endlessly supportive and eager for everyone to succeed and to
+share their success. I know of two blogs that have started (or are starting) as
+a direct response to gentle encouragement (read: peer pressure)
 
-### Header
+### Will I Be Going Back?
 
-Text
+Hell yes!
 
-### Header
+The real question is: when? It’s a real financial commitment getting over to
+America and I’m fairly certain I can’t make it an annual thing. Though you
+shouldn’t ever say never.
 
-Text
+What I will say is that if **you** want to go next year that you really have to
+get in early. The event has been selling out quicker each and every year and
+people always miss out. Get your approval from work early and have it ready to
+go when sales open!
+
+### What’s Next?
+
+I’m finally able to stream on YouTube again! I don’t think I’ll be doing on of
+those for another couple of days as I really should make sure I’m over the whole
+jetlag thing before I start getting up at 3 AM to do this streaming business.
+
+You’ll also catch me (virtually) speaking at a couple of PowerShell user groups
+through the year. Keep an eye on [my Twitter](https://twitter.com/WindosNZ) as
+I’ll be advertising these as they’re locked down.
+
+Other than blog posts, which I hope to ramp up to two per week, the next thing
+you’ll see come from me is video recording of what would my Community Lightning
+Demo on BurntToast. Should be a quick 5 to 10 minute video, and I’m really
+looking forward to doing it!
+
+A little further down the track I’ll be working on something with [Adam
+Murray](https://twitter.com/muzzar78). I won’t tell you what yet… but, as
+always, keep an eye on Twitter.
+
+### The End
+
+And that’s officially the end up my \#PSHSummit coverage. Thanks for following
+along, I hope my ramblings did an ok job of giving you an idea of what the event
+is like.
 
 Also, remember that if you're looking for [PowerShell
 help](https://king.geek.nz/2018/03/20/pshelp-twitter/), you can find it on
