@@ -167,7 +167,7 @@ Bold text uses the correct syntax, as to lists, hyperlinks, everything.
 
 This is what this post looks like when you have it open in Word:
 
-[![Writage](/images/blog-workflow/writage.jpg)](/images/blog-workflow/writage.jpg)
+[![Writage](/images/blog-workflow/writage.png)](/images/blog-workflow/writage.png)
 
 One thing I don't do via Writage is code snippets. It has a habit of wanting to
 escape dollar signs and the like. I just note where the code is to go and drop
