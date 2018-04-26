@@ -66,13 +66,45 @@ just, you know, stop work in progress stuff being shown to the entire world?
 
 Branches!
 
-### Header
+As I write this, I’m making commits to a “blog-workflow” branch, named after the
+name of this post. The file I’m editing right now is
+“2018-04-26-blog-workflow.md”.
 
-Text
+\_branch.png\_
 
-### Header
+When I’m all finished writing, I merge the branch into master and the post goes
+live. You can have as many branches on the go as you like. If you were following
+along with my Summit recaps, I’d used branches to preemptively get the
+templates, titles and thumbnails for each post ready before I was even on my way
+over to America.
 
-Text
+\_summit.jpg\_
+
+### It All Starts with a Title and an Image
+
+Ok, technically each of my posts starts with the idea for the blog post. But
+nothing else happens before I have a title and a thumbnail image. I like to have
+fun with these, and I try to go for “punny” titles (my goal is to make myself
+laugh!)
+
+For thumbnails I’ll pick one word that summarizes the topic of the post and
+start searching for an image. I try to keep to creative commons images,
+generally via [Flickr](https://www.flickr.com/photos/astuteobserver/1439828491/)
+and I always include credit in the markdown file for where the image came from.
+Bonus points if I manage to find an image that makes me laugh while still
+actually being related to the topic of the post.
+
+### The Template
+
+Next is the template (which I really should automate), generally what I do to
+get this at the moment is make a copy of the previous post and edit it.
+
+Posts are all Markdown files with metadata at the top, and I keep this metadata
+lean initially (for reasons which will become clear soon.)
+
+Here is what this post started life as:
+
+\_template\_
 
 ### Header
 
