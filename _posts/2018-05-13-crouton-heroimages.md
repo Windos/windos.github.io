@@ -39,7 +39,7 @@ Unfortunately, we won’t be able to use `New-BurntToastNotification` for this,
 so right off the bat you’ll have a few more lines of code than you might
 normally have had.
 
-First, let’s sort out the test and image we’ll be using:
+First, let’s sort out the text and image we’ll be using:
 
 ```powershell
 $Text1 = New-BTText -Content 'Intruder Alert!'
@@ -82,10 +82,10 @@ When you run this, you’ll get your rather spiffy looking Toast:
 
 This post has been a long time coming. My last one went out the day I went back
 to work after a couple of weeks off… and it took a while to catch back up.
-Doesn’t help that I’m also working on a couple of side projects at the time
-which meant this blog took a back seat for a little while.
+Doesn’t help that I’m also working on a couple of side projects at the moment
+which means this blog took a back seat for a little while.
 
-The only project I’ll mention now (and expect to hear more in the future), is
+The only project I’ll mention now (and expect to hear more about it in the future), is
 [Adam Bertram’s](https://twitter.com/adbertram/) upcoming e-learning service
 [TechSnips](http://techsnips.io). I’ve been busy recording “snips” ready for the
 [official
