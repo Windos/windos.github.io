@@ -12,18 +12,18 @@ image:
  creditlink: https://www.flickr.com/photos/srsphoto/512982909
 ---
 
-I’ve been pretty slack on blog posts over the past two weeks or so. As it is I’m
-currently writing this one on my lunch hours and hoping to get it done before
-it’s over.
+I’ve been pretty slack on blog posts over the past two weeks or so. As it is, I’m
+writing this one on my lunch hour and hoping to get it done before it’s over.
 
 Why the crunch? In a roundabout way you can blame [Adam
-Bertram](https://twitter.com/adbertram/). Adam has been working on a new
-e-learning service and I’ve been putting a fair amount of time into recording
-content for it, along with many other contributors.
+Bertram](https://twitter.com/adbertram/).
+
+Adam has been working on a new e-learning service and I’ve been putting a fair amount
+of time into recording content for it, along with many other contributors.
 
 ### Meet TechSnips
 
-<center>[![TechSnips Logo](/images/techsnips-intro/techsnips.png)](/images/techsnips-intro/techsnips.png)</center>
+[![TechSnips Logo](/images/techsnips-intro/techsnips.png)](/images/techsnips-intro/techsnips.png)
 
 The service is called [TechSnips](http://www.techsnips.io/), and it features
 short “laser focused” videos on many different tech topics. The idea is that
@@ -52,7 +52,7 @@ that’ll be recorded in the next day or so.
 
 What sort of topics? Here’s a peek:
 
-<center>[![TechSnips Logo](/images/techsnips-intro/trello.png)](/images/techsnips-intro/trello.png)</center>
+[![TechSnips Logo](/images/techsnips-intro/trello.png)](/images/techsnips-intro/trello.png)
 
 Obviously, it’s not just me. There’s 16 other people working on content (not
 including Adam… he’s a little busy actually working on the service and herding
